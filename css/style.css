@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Roboto Serif;
+  color: black;
+  background-color: #f5ffe2;
+}
+
+/*TIPOGRAFIAS*/
+.parrafoquehacer {
+  font-size: 14px;
+  text-indent: auto;
+}
+
+/*TITULO EN LA IMAGEN*/
+.container-principio {
+  position: relative;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 50px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 300px;
+  margin-top: 150px;
+  background-color: transparent;
+  color: #fffffc;
+  padding: 10px;
+}
+
+
+h3 {
+  margin-top: 50px;
+  margin-left: 490px;
+
+}
+
+.tituloquehacer {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 50px;
+  margin-left: 150px;
+  background-color: transparent;
+  color: #fffffc;
+
+}
+
+.tituloquevisitar {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 70px;
+  margin-left: 150px;
+  background-color: transparent;
+  color: #fffffc;
+
+}
+
+.tituloeventos {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 70px;
+  margin-left: 200px;
+  background-color: transparent;
+  color: #fffffc;
+
+}
+
+.titulodatosutiles{
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 70px;
+  margin-left: 150px;
+  background-color: transparent;
+  color: #fffffc;
+
+}
+.secciondatosutiles{
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
+
+.parrafodatosUtiles{
+  font-size: 30px;
+  font-family: "Ubuntu", Sans-serif;
+  margin-top:250px;
+  margin-left: -20px;
+  color:black;
+  font-weight: 1000;
+  line-height: 70px;
+}
+
+.secciondatosutiles{
+  margin-top:-200px;
+  margin-left: 40px;
+
+}
+
+
+
+
+/*BOTON*/
+.boton {
+  background-color: #e0ffb3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 25px;
+  width: auto;
+  padding: 10px 10px;
+}
+
+/*movimiento el boton*/
+
+.boton:hover {
+  background-color: #b7ee65;
+}
+
+.main {
+  font-family: "Ubuntu";
+  color: black;
+  margin-top: -210px;
+  /* espacio entre trakking con el header*/
+  margin-left: 20px;
+  /*corro los nombres del margen*/
+  margin-right: 20px;
+  margin-bottom: 100px;
+  /* Ajusta el valor según sea necesario */
+}
+
+
+.contenedor {
+  max-width: 120rem;
+  margin-bottom: 250px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.margendelapagquehacer {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/*imagenes*/
+
+.imgprincipal {
+  height: 350px;
+  width: 100%;
+}
+
+.tam_primerimg {
+  height: 450px;
+  width: 100%;
+}
+
+/*HEADER*/
+
+header {
+  background: linear-gradient(to left, #80e961, #daf800);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-around;
+}
+
+header img {
+  width: 200px;
+  margin-left: -60px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li a {
+  margin: 10px;
+  list-style-type: none;
+  font-weight: 500;
+  color: #3e9219;
+  text-decoration: none;
+  transition: 1s;
+}
+
+header nav ul li a:hover {
+  color: black;
+  margin: 20px;
+}
+
+/*BUSCADOR*/
+
+.navbar {
+  background-color: transparent;
+  /* Cambia el color de fondo según tu preferencia */
+  display: flex;
+  justify-content: end;
+  width: 200px;
+  margin-top: -40px;
+}
+
+/*BUSCADOR DE PAG QUE HACER*/
+.navbarbuscador2 {
+  margin-left: 450px;
+  width: 400px;
+}
+
+/*MENU*/
+.navbar-toggler {
+  margin-right: -1110px;
+  /* Ajusta el margen derecho según sea necesario */
+  margin-top: 50px;
+  /* Ajusta el margen superior según sea necesario */
+}
+
+/*DETALLES*/
+
+.icono-wsp {
+  width: 50px;
+  position: fixed;
+  right: 25px;
+  bottom: 50px;
+}
+
+.buscador {
+  color: #3e9219;
+  position: relative;
+  top: -2px;
+  right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu {
+  position: relative;
+  top: -2px;
+  right: -130px;
+  width: 30px;
+}
+
+/*IMAGENES DE TERCER PARTE*/
+
+.titulo {
+  margin-top: 5px;
+}
+
+.containerr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  /*espacio entre imagenes*/
+}
+
+.img-fuera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img-container img {
+  height: 300px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+/*FORMULARIO*/
+
+.contentform {
+  position: absolute;
+  margin-top: -140px;
+  margin-left: 620px;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* Color del texto */
+  text-align: center;
+  /* Centra el texto horizontalmente */
+}
+
+.imgformulario {
+  margin-top: 35px;
+  height: 300px;
+  width: 1275px;
+}
+
+h2 {
+  margin-top: 45px;
+  text-align: center;
+  /* Centra el texto del párrafo */
+  font-style: "Ubuntu";
+}
+
+.ordeform {
+  font-family: "Libre Franklin";
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 24px;
+}
+
+form {
+  margin-top: 35px;
+  text-align: center;
+  /* Centra el texto del párrafo */
+  font-style: Ubuntu;
+}
+
+form label {
+  color: black;
+  font-family: Arial;
+}
+
+form input {
+  background-color: rgb(211, 211, 211);
+  border: 0px;
+  border-radius: 1px;
+}
+
+form input:focus {
+  background-color: antiquewhite;
+}
+
+/* Estilo para el párrafo del formulario */
+p {
+  text-align: center;
+  /* Centra el texto del párrafo */
+  margin-top: 20px;
+  /* Agrega un margen superior para separarlo del contenido superior */
+  margin-bottom: 20px;
+  /* Agrega un margen inferior para separarlo del formulario */
+}
+
+/*FOOTER*/
+
+.footer {
+  background-color: #c5f0d4;
+  height: 150px;
+  padding: 10px 0;
+  color: #333;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+.footer-inner {
+  margin-left: 300px;
+  margin-top: -70px;
+  font-size: 10px;
+}
+
+.footer-inner2 {
+  margin-left: 450px;
+  margin-top: -84px;
+}
+
+.contact-item {
+  display: inline-block;
+  margin-right: 15px;
+  width: 35px;
+}
+
+.contact-info {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.copyright {
+  margin-left: -350px;
+}
+
+.imgfooter {
+  width: 80px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+/*GRID*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-flow: row;
+  gap: 5px;
+  margin-top: 300px;
+  margin-bottom: 70px;
+}
+
+.grid-item {
+  position: relative;
+
+}
+
+.imggrid {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+
+
+
+.texto-superpuesto {
+  position: absolute;
+  left: 10px;
+  top: 70%;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  /* Hace que el texto esté en negrita */
+}
+
+
+h4 {
+  margin-bottom: 5px;
+  /* Ajusta el margen inferior del h4 */
+}
+
+.texto-superpuesto p {
+  margin-top: 5px;
+  /* Ajusta el margen superior del p */
+}
+
+
+
+.img-datos-utiles{
+  margin-right: 110px;
+}
+
+
+/*texto debajo de iconos de datosutiles*/
+.texto-datos-utiles{
+  margin-left: -110px;
+}
+
+/*PAGINA DE DATOS UTILES*/
+.grid-container2{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-flow: row;
+  gap: 5px;
+  margin-top: 300px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+
+
+.grid-item2 {
+  text-align: center; /* Centra los elementos dentro de los grid-items */
+}
+
+.grid-item2 a {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.grid-item2 img {
+  display: block; /* Asegura que la imagen no tenga margen inferior */
+  margin-bottom: 5px; /* Espacio entre la imagen y el párrafo */
+}

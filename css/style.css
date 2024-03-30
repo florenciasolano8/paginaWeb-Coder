@@ -10,7 +10,6 @@ body {
   background-color: #f5ffe2;
 }
 
-/*TIPOGRAFIAS*/
 .parrafoquehacer {
   font-size: 14px;
   text-indent: auto;
@@ -35,11 +34,9 @@ h1 {
   padding: 10px;
 }
 
-
 h3 {
   margin-top: 50px;
   margin-left: 490px;
-
 }
 
 .tituloquehacer {
@@ -50,7 +47,6 @@ h3 {
   margin-left: 150px;
   background-color: transparent;
   color: #fffffc;
-
 }
 
 .tituloquevisitar {
@@ -61,7 +57,6 @@ h3 {
   margin-left: 150px;
   background-color: transparent;
   color: #fffffc;
-
 }
 
 .tituloeventos {
@@ -72,10 +67,9 @@ h3 {
   margin-left: 200px;
   background-color: transparent;
   color: #fffffc;
-
 }
 
-.titulodatosutiles{
+.titulodatosutiles {
   font-size: 60px;
   font-family: "Ubuntu", Sans-serif;
   font-weight: 1000;
@@ -83,30 +77,28 @@ h3 {
   margin-left: 150px;
   background-color: transparent;
   color: #fffffc;
-
 }
-.secciondatosutiles{
+
+.secciondatosutiles {
   margin-top: 300px;
   margin-bottom: 50px;
 }
 
-.parrafodatosUtiles{
+.parrafodatosUtiles {
   font-size: 30px;
   font-family: "Ubuntu", Sans-serif;
-  margin-top:250px;
+  margin-top: 250px;
   margin-left: -20px;
-  color:black;
+  color: black;
   font-weight: 1000;
   line-height: 70px;
 }
 
-.secciondatosutiles{
-  margin-top:-200px;
+.secciondatosutiles {
+  margin-top: -200px;
   margin-left: 40px;
 
 }
-
-
 
 
 /*BOTON*/
@@ -121,7 +113,6 @@ h3 {
 }
 
 /*movimiento el boton*/
-
 .boton:hover {
   background-color: #b7ee65;
 }
@@ -130,14 +121,10 @@ h3 {
   font-family: "Ubuntu";
   color: black;
   margin-top: -210px;
-  /* espacio entre trakking con el header*/
   margin-left: 20px;
-  /*corro los nombres del margen*/
   margin-right: 20px;
   margin-bottom: 100px;
-  /* Ajusta el valor según sea necesario */
 }
-
 
 .contenedor {
   max-width: 120rem;
@@ -193,16 +180,16 @@ header nav ul li a {
   transition: 1s;
 }
 
+/*APLICO HOVER */
+
 header nav ul li a:hover {
   color: black;
   margin: 20px;
 }
 
 /*BUSCADOR*/
-
 .navbar {
   background-color: transparent;
-  /* Cambia el color de fondo según tu preferencia */
   display: flex;
   justify-content: end;
   width: 200px;
@@ -218,9 +205,7 @@ header nav ul li a:hover {
 /*MENU*/
 .navbar-toggler {
   margin-right: -1110px;
-  /* Ajusta el margen derecho según sea necesario */
   margin-top: 50px;
-  /* Ajusta el margen superior según sea necesario */
 }
 
 /*DETALLES*/
@@ -264,7 +249,6 @@ header nav ul li a:hover {
   display: flex;
   justify-content: center;
   gap: 60px;
-  /*espacio entre imagenes*/
 }
 
 .img-fuera {
@@ -289,9 +273,7 @@ header nav ul li a:hover {
   margin-left: 620px;
   transform: translate(-50%, -50%);
   color: white;
-  /* Color del texto */
   text-align: center;
-  /* Centra el texto horizontalmente */
 }
 
 .imgformulario {
@@ -303,7 +285,6 @@ header nav ul li a:hover {
 h2 {
   margin-top: 45px;
   text-align: center;
-  /* Centra el texto del párrafo */
   font-style: "Ubuntu";
 }
 
@@ -317,7 +298,6 @@ h2 {
 form {
   margin-top: 35px;
   text-align: center;
-  /* Centra el texto del párrafo */
   font-style: Ubuntu;
 }
 
@@ -339,12 +319,11 @@ form input:focus {
 /* Estilo para el párrafo del formulario */
 p {
   text-align: center;
-  /* Centra el texto del párrafo */
   margin-top: 20px;
-  /* Agrega un margen superior para separarlo del contenido superior */
   margin-bottom: 20px;
-  /* Agrega un margen inferior para separarlo del formulario */
 }
+
+/*FOOTER*/
 
 /*FOOTER*/
 
@@ -357,8 +336,6 @@ p {
   bottom: 0;
   width: 100%;
 }
-
-
 
 .footer-inner {
   margin-left: 300px;
@@ -414,9 +391,6 @@ p {
   border-radius: 10px;
 }
 
-
-
-
 .texto-superpuesto {
   position: absolute;
   left: 10px;
@@ -424,34 +398,29 @@ p {
   padding: 5px;
   color: white;
   font-weight: bold;
-  /* Hace que el texto esté en negrita */
 }
 
 
 h4 {
   margin-bottom: 5px;
-  /* Ajusta el margen inferior del h4 */
 }
 
 .texto-superpuesto p {
   margin-top: 5px;
-  /* Ajusta el margen superior del p */
 }
 
-
-
-.img-datos-utiles{
+.img-datos-utiles {
   margin-right: 110px;
 }
 
 
 /*texto debajo de iconos de datosutiles*/
-.texto-datos-utiles{
+.texto-datos-utiles {
   margin-left: -110px;
 }
 
 /*PAGINA DE DATOS UTILES*/
-.grid-container2{
+.grid-container2 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-auto-flow: row;
@@ -459,20 +428,196 @@ h4 {
   margin-top: 300px;
   margin-bottom: 70px;
   display: flex;
-  justify-content: center; /* Centra los elementos horizontalmente */
+  justify-content: center;
 }
 
 
+h3 {
+  display: none;
+
+}
 
 .grid-item2 {
-  text-align: center; /* Centra los elementos dentro de los grid-items */
+  text-align: center;
 }
 
 .grid-item2 a {
-  text-decoration: none; /* Elimina el subrayado del enlace */
+  text-decoration: none;
 }
 
 .grid-item2 img {
-  display: block; /* Asegura que la imagen no tenga margen inferior */
-  margin-bottom: 5px; /* Espacio entre la imagen y el párrafo */
+  display: block;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width:767px) {
+  nav {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  h1 {
+    display: none;
+
+  }
+
+  .container-logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    width: 110px;
+  }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-fuera {
+    margin-bottom: 20px;
+  }
+
+  .imgprincipal {
+    height: 200px;
+    width: 100%;
+  }
+
+  /*modificaciones pagina que visitar*/
+
+  .navbarbuscador2 {
+    display: none;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid-item {
+    margin-bottom: 20px;
+  }
+
+  .tam_primerimg {
+    height: 200px;
+    width: 100%;
+  }
+
+  .imgfooter {
+    display: none;
+  }
+
+  .footer {
+    background-color: #f5ffe2;
+    margin-left: 0;
+    height: 20px;
+  }
+
+  .footer-inner2 {
+    display: none;
+  }
+
+  h6 {
+    display: none;
+  }
+
+  .contact-info {
+    display: none;
+
+  }
+
+  .contact-item {
+    display: none;
+  }
+
+  /*pagina quehacer*/
+
+  .parrafoquehacer {
+    margin-left: -80px;
+  }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  h1 {
+    display: none;
+
+  }
+
+  .container-logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    width: 110px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  /*saco el buscador de la pagina QUEVISITAR*/
+  .navbarbuscador2 {
+    display: none;
+  }
+
+}
+
+/*para la vista de las imagenes*/
+
+/* Estilos generales */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .img-fuera {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .img-fuera img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-fuera {
+    width: 50%;
+  }
+
+  .footer-inner2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+
+  .logo {
+    margin-left: 110px;
+  }
+
+  .container-logo {
+    margin-left: -180px;
+  }
+
+  .navbar-toggler {
+    margin-left: -80px;
+  }
+
+  .footer-inner2 {
+    margin-left: 250px;
+  }
 }

@@ -13,7 +13,9 @@
       width: 150px;
 
     }
-    .menuheader .container-fluid{  /*menu */
+
+    .menuheader .container-fluid {
+      /*menu */
       margin-top: 15px;
       margin-right: -350px;
       width: 10px;
@@ -26,7 +28,7 @@
     }
   }
 
-
+  /*MAIN*/
   main {
     .img-container {
       display: flex;
@@ -38,7 +40,9 @@
       height: 200px;
       width: 100%;
     }
-    .grid-container {    /*modificaciones pagina que visitar*/
+
+    .grid-container {
+      /*modificaciones pagina que visitar*/
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -47,9 +51,43 @@
     .grid-item {
       margin-bottom: 20px;
     }
+
+    .parrafodatosUtiles {
+      font-size: 15px;
+    }
+
+    /*modificaciones pagquehacer*/
+
+    h4 {
+      font-size: 18px;
+
+    }
+
+    .texto-superpuesto p {
+      font-size: 10px;
+    }
+
+
+
+    /*datos  utiles*/
+    .secciondatosutiles {
+      .grid-container2 {
+        flex-direction: column; // Cambia la dirección del flujo de elementos a columna
+        align-items: flex-start; // Alinea los elementos a la izquierda
+      }
+
+      .grid-item2 {
+        width: 100%; // Ocupa todo el ancho disponible
+        margin-right: 0; // Elimina el margen derecho
+        margin-bottom: 20px; // Espacio entre los elementos
+
+
+      }
+
+    }
   }
 
-
+  /*PAGQUEHACER*/
   .pagquehacer {
     .navbarbuscador2 {
       display: none;
@@ -59,51 +97,106 @@
       height: 200px;
       width: 100%;
     }
+
+    h1 {
+      display: none;
+    }
+  }
+
+  /*modificaciones pagquevisitar*/
+
+  .tituloquevisitar {
+    h1 {
+      display: none;
+    }
+  }
+
+  h3 {
+    font-size: 18px;
+
+  }
+
+  .buscadorpagquevisitar {
+    margin-left: -380px;
+
+  }
+
+  /*modificaciones pageventos*/
+
+  .tituloeventos {
+    h1 {
+      display: none;
+    }
+
+    h3 {
+      font-size: 18px;
+
+    }
+
+  }
+
+  .buscadorpageventos {
+    margin-left: -380px;
+
+  }
+
+  /*modificaciones pagdatosutiles*/
+  .titulodatosutiles {
+    h1 {
+      display: none;
+    }
+
   }
 
 
 
-    footer {
-      display: flex;
-      background-color: #f5ffe2;
-      margin-left: 0;
-      height: 60px; /* Ajusta la altura según tus necesidades */
-    
-      .imgfooter {
-        width: 40px;
-        height: 60px;
-        margin-right: 20px; /* Espacio a la derecha del logo */
-      }
-    
-      .footer-inner {
-        display: flex;           /* Utiliza flexbox */
-        align-items: center;     /* Centra los íconos verticalmente */
-      }
-    
-      .contact-info {
-        display: flex;           /* Utiliza flexbox para los íconos */
-        justify-content: flex-end; /* Alinea los íconos a la derecha */
-        align-items: center;     /* Centra los íconos verticalmente */
-      }
-    
-      .contact-item {
-        margin-left: 10px;       /* Espacio horizontal entre los íconos */
-      }
+
+  footer {
+    display: flex;
+    /* Utiliza flexbox para los íconos */
+    align-items: center;
+    /* Centra los íconos verticalmente */
+    justify-content: flex-start;
+    /* Alinea los íconos a la izquierda */
+    flex-wrap: wrap;
+
+    .imgfooter {
+      width: 40px;
+      height: 60px;
+      margin-right: 20px;
+      /* Espacio a la derecha del logo */
     }
-    
+
+    .footer-inner {
+      margin-left: 300px;
+      margin-top: -70px;
+      font-size: 10px;
+
+
+      .contact-info1 {
+        margin-left: -230px;
+        margin-bottom: -25px;
+      }
+
+      h6 {
+        display: none;
+      }
+
+      .contact-item {
+        margin-left: 1px;
+        /* Espacio entre iconos */
+      }
+
+    }
+
 
     .footer-inner2 {
       display: none;
     }
 
-    h6 {
+    .copyright {
       display: none;
     }
 
-    .copyright{
-        display: none;
-      }
-    
-    }
-
-  
+  }
+}

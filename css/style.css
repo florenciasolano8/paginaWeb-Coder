@@ -179,12 +179,17 @@ header .menuheader .container-fluid { /*menu */
   bottom: 0;
   width: 100%;
 }
+.footer .imgfooter {
+  width: 40px;
+  height: 60px;
+  margin-right: 20px;
+}
 .footer .footer-inner {
   margin-left: 300px;
   margin-top: -70px;
   font-size: 10px;
 }
-.footer .contact-info {
+.footer .contact-info, .footer .contact-info1 {
   margin-left: 50px;
   margin-top: 10px;
 }
@@ -338,6 +343,10 @@ h3 {
   margin-left: 490px;
 }
 
+.buscadorpagquevisitar {
+  color: black;
+}
+
 .tituloeventos {
   font-size: 60px;
   font-family: "Ubuntu", Sans-serif;
@@ -359,6 +368,10 @@ h3 {
   background-color: transparent;
   color: #fffffc;
   padding: 10px;
+}
+
+.buscadorpageventos {
+  color: black;
 }
 
 .titulodatosutiles {
@@ -394,13 +407,19 @@ h3 {
   header .navbar {
     width: 150px;
   }
-  header .menuheader .container-fluid { /*menu */
+  header .menuheader .container-fluid {
+    /*menu */
     margin-top: 15px;
     margin-right: -350px;
     width: 10px;
   }
   .contenedor h1 {
     display: none;
+  }
+  /*MAIN*/
+  main {
+    /*modificaciones pagquehacer*/
+    /*datos  utiles*/
   }
   main .img-container {
     display: flex;
@@ -411,7 +430,8 @@ h3 {
     height: 200px;
     width: 100%;
   }
-  main .grid-container { /*modificaciones pagina que visitar*/
+  main .grid-container {
+    /*modificaciones pagina que visitar*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -419,6 +439,25 @@ h3 {
   main .grid-item {
     margin-bottom: 20px;
   }
+  main .parrafodatosUtiles {
+    font-size: 15px;
+  }
+  main h4 {
+    font-size: 18px;
+  }
+  main .texto-superpuesto p {
+    font-size: 10px;
+  }
+  main .secciondatosutiles .grid-container2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  main .secciondatosutiles .grid-item2 {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  /*PAGQUEHACER*/
   .pagquehacer .navbarbuscador2 {
     display: none;
   }
@@ -426,36 +465,68 @@ h3 {
     height: 200px;
     width: 100%;
   }
+  .pagquehacer h1 {
+    display: none;
+  }
+  /*modificaciones pagquevisitar*/
+  .tituloquevisitar h1 {
+    display: none;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .buscadorpagquevisitar {
+    margin-left: -380px;
+  }
+  /*modificaciones pageventos*/
+  .tituloeventos h1 {
+    display: none;
+  }
+  .tituloeventos h3 {
+    font-size: 18px;
+  }
+  .buscadorpageventos {
+    margin-left: -380px;
+  }
+  /*modificaciones pagdatosutiles*/
+  .titulodatosutiles h1 {
+    display: none;
+  }
   footer {
     display: flex;
-    background-color: #f5ffe2;
-    margin-left: 0;
-    height: 60px; /* Ajusta la altura según tus necesidades */
+    /* Utiliza flexbox para los íconos */
+    align-items: center;
+    /* Centra los íconos verticalmente */
+    justify-content: flex-start;
+    /* Alinea los íconos a la izquierda */
+    flex-wrap: wrap;
   }
   footer .imgfooter {
     width: 40px;
     height: 60px;
-    margin-right: 20px; /* Espacio a la derecha del logo */
+    margin-right: 20px;
+    /* Espacio a la derecha del logo */
   }
   footer .footer-inner {
-    display: flex; /* Utiliza flexbox */
-    align-items: center; /* Centra los íconos verticalmente */
+    margin-left: 300px;
+    margin-top: -70px;
+    font-size: 10px;
   }
-  footer .contact-info {
-    display: flex; /* Utiliza flexbox para los íconos */
-    justify-content: flex-end; /* Alinea los íconos a la derecha */
-    align-items: center; /* Centra los íconos verticalmente */
+  footer .footer-inner .contact-info1 {
+    margin-left: -230px;
+    margin-bottom: -25px;
   }
-  footer .contact-item {
-    margin-left: 10px; /* Espacio horizontal entre los íconos */
-  }
-  .footer-inner2 {
+  footer .footer-inner h6 {
     display: none;
   }
-  h6 {
+  footer .footer-inner .contact-item {
+    margin-left: 1px;
+    /* Espacio entre iconos */
+  }
+  footer .footer-inner2 {
     display: none;
   }
-  .copyright {
+  footer .copyright {
     display: none;
   }
 }

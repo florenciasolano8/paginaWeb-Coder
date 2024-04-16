@@ -1,0 +1,155 @@
+.main {
+  font-family: "Ubuntu";
+  color: black;
+  margin-top: -210px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+
+  .containerr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titulo {
+    margin-top: 5px;
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .img-fuera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .img-container img {
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+  }
+
+  h2 {
+    margin-top: 45px;
+    text-align: center;
+    font-style: "Ubuntu";
+  }
+
+  .imgformulario {
+    margin-top: 35px;
+    height: 300px;
+    width: 1325px;
+  }
+
+  .contentform {
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 620px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+  .contentform .ordeform {
+    font-family: "Libre Franklin";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-flow: row;
+    gap: 5px;
+    margin-top: 300px;
+    margin-bottom: 70px;
+  }
+
+  .grid-item {
+    position: relative;
+  }
+
+  .imggrid {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  .texto-superpuesto {
+    position: absolute;
+    left: 10px;
+    top: 70%;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+  }
+
+  h4 {
+    margin-bottom: 5px;
+  }
+
+  .texto-superpuesto p {
+    margin-top: 5px;
+  }
+
+  .parrafodatosUtiles {
+    font-size: 30px;
+    font-family: "Ubuntu", Sans-serif;
+    margin-top: 250px;
+    margin-left: 60px;
+    color: black;
+    font-weight: 1000;
+    line-height: 70px;
+  }
+
+  .secciondatosutiles {
+    margin-top: -200px;
+    margin-left: 40px;
+
+  }
+
+  .img-datos-utiles {
+    margin-right: 110px;
+  }
+
+  /*texto debajo de iconos de datosutiles*/
+  .texto-datos-utiles {
+    margin-left: -110px;
+  }
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-flow: row;
+    gap: 5px;
+    margin-top: 300px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  .grid-item2 {
+    text-align: center;
+  }
+
+  .grid-item2 a {
+    text-decoration: none;
+  }
+
+  .grid-item2 img {
+    display: block;
+    margin-bottom: 5px;
+  }
+}

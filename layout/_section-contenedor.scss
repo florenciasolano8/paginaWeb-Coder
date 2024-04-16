@@ -1,0 +1,28 @@
+.contenedor {
+    max-width: 120rem;
+    margin-bottom: 250px;
+    font-family: "Libre Franklin", sans-serif;
+
+    .container-principio {
+        position: relative;
+    }
+
+    .imgprincipal {
+        height: 350px;
+        width: 100%;
+    }
+    
+  h1 {
+    font-size: 60px;
+    font-family: "Ubuntu", Sans-serif;
+    font-weight: 1000;
+    line-height: 50px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 300px;
+    margin-top: 150px;
+    background-color: transparent;
+    color: #fffffc;
+    padding: 10px;
+  }
+}

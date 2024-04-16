@@ -1,0 +1,52 @@
+.footer {
+    background-color: #c5f0d4;
+    height: 160px;
+    padding: 10px 0;
+    color:black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+    .footer-inner {
+        margin-left: 300px;
+        margin-top: -70px;
+        font-size: 10px;
+    }
+
+    .contact-info {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .contact-item {
+        margin-right: 25px;
+        margin-top:15px;
+        width: 35px;
+    }
+
+    .footer-inner2 {
+        margin-left: 450px;
+        margin-top: -90px;
+    }
+
+    .copyright {
+        margin-left: 180px;
+        margin-top: 30px;
+    }
+
+    .imgfooter {
+        width: 80px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .redes {
+
+        .icono-wsp {
+            width: 50px;
+            position: fixed;
+            right: 25px;
+            bottom: 50px;
+        }
+    }
+}

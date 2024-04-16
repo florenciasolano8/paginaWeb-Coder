@@ -1,0 +1,43 @@
+header {
+  background: linear-gradient(to left, #80e961, #daf800);
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 100%;
+  img {
+    width: 200px;
+    margin-left: -60px;
+  }
+  nav {
+    ul {
+      display: flex;
+      list-style-type: none;
+      li {
+        a {
+          margin: 10px;
+          list-style-type: none;
+          font-weight: 500;
+          color: #3e9219;
+          text-decoration: none;
+          transition: 1s;
+          &:hover {
+            color: black;
+            margin: 20px;
+          }
+        }
+      }
+    }
+  }
+.navbar { /*buscador*/
+    background-color: transparent;
+    width: 200px;
+    margin-top: -10px;
+  }
+  .menuheader .container-fluid{  /*menu */
+    margin-top: 15px;
+    margin-right:-1120px;
+    width:10px;
+  }
+
+}

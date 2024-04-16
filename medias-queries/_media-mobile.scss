@@ -1,0 +1,109 @@
+@media screen and (max-width: 767px) {
+  header {
+    nav {
+      display: none;
+    }
+
+    img {
+      width: 150px;
+      margin-left: -45px;
+    }
+
+    .navbar {
+      width: 150px;
+
+    }
+    .menuheader .container-fluid{  /*menu */
+      margin-top: 15px;
+      margin-right: -350px;
+      width: 10px;
+    }
+  }
+
+  .contenedor {
+    h1 {
+      display: none;
+    }
+  }
+
+
+  main {
+    .img-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .imgprincipal {
+      height: 200px;
+      width: 100%;
+    }
+    .grid-container {    /*modificaciones pagina que visitar*/
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .grid-item {
+      margin-bottom: 20px;
+    }
+  }
+
+
+  .pagquehacer {
+    .navbarbuscador2 {
+      display: none;
+    }
+
+    .tam_primerimg {
+      height: 200px;
+      width: 100%;
+    }
+  }
+
+
+
+    footer {
+      display: flex;
+      background-color: #f5ffe2;
+      margin-left: 0;
+      height: 60px; /* Ajusta la altura según tus necesidades */
+    
+      .imgfooter {
+        width: 40px;
+        height: 60px;
+        margin-right: 20px; /* Espacio a la derecha del logo */
+      }
+    
+      .footer-inner {
+        display: flex;           /* Utiliza flexbox */
+        align-items: center;     /* Centra los íconos verticalmente */
+      }
+    
+      .contact-info {
+        display: flex;           /* Utiliza flexbox para los íconos */
+        justify-content: flex-end; /* Alinea los íconos a la derecha */
+        align-items: center;     /* Centra los íconos verticalmente */
+      }
+    
+      .contact-item {
+        margin-left: 10px;       /* Espacio horizontal entre los íconos */
+      }
+    }
+    
+
+    .footer-inner2 {
+      display: none;
+    }
+
+    h6 {
+      display: none;
+    }
+
+    .copyright{
+        display: none;
+      }
+    
+    }
+
+  

@@ -1,0 +1,448 @@
+/*import*/
+header {
+  background: linear-gradient(to left, #80e961, #daf800);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-around;
+}
+header img {
+  width: 200px;
+  margin-left: -60px;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li a {
+  margin: 10px;
+  list-style-type: none;
+  font-weight: 500;
+  color: #3e9219;
+  transition: 1s;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: black;
+  margin: 20px;
+}
+header .navbar-buscador {
+  margin-right: 100px;
+}
+
+.main {
+  font-family: "Ubuntu";
+  color: black;
+  margin-top: -210px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  /*texto debajo de iconos de datosutiles*/
+}
+.main .containerr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .titulo {
+  margin-top: 5px;
+}
+.main .img-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.main .img-fuera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.main .img-container img {
+  height: 300px;
+  width: 350px;
+  border-radius: 5px;
+}
+.main h2 {
+  margin-top: 45px;
+  text-align: center;
+  font-style: "Ubuntu";
+}
+.main .imgformulario {
+  margin-top: 35px;
+  height: 300px;
+  width: 1325px;
+}
+.main .contentform {
+  position: absolute;
+  margin-top: -140px;
+  margin-left: 620px;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.main .contentform .ordeform {
+  font-family: "Libre Franklin";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+.main .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-flow: row;
+  gap: 5px;
+  margin-top: 300px;
+  margin-bottom: 70px;
+}
+.main .grid-item {
+  position: relative;
+}
+.main .imggrid {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.main .texto-superpuesto {
+  position: absolute;
+  left: 10px;
+  top: 70%;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+}
+.main h4 {
+  margin-bottom: 5px;
+}
+.main .texto-superpuesto p {
+  margin-top: 5px;
+}
+.main .parrafodatosUtiles {
+  font-size: 30px;
+  font-family: "Ubuntu", Sans-serif;
+  margin-top: 250px;
+  margin-left: 60px;
+  color: black;
+  font-weight: 1000;
+  line-height: 70px;
+}
+.main .secciondatosutiles {
+  margin-top: -200px;
+  margin-left: 40px;
+}
+.main .img-datos-utiles {
+  margin-right: 110px;
+}
+.main .texto-datos-utiles {
+  margin-left: -110px;
+}
+.main .grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-flow: row;
+  gap: 5px;
+  margin-top: 300px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+.main h3 {
+  display: none;
+}
+.main .grid-item2 {
+  text-align: center;
+}
+.main .grid-item2 a {
+  text-decoration: none;
+}
+.main .grid-item2 img {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer {
+  background-color: #c5f0d4;
+  height: 160px;
+  padding: 10px 0;
+  color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.footer .footer-inner {
+  margin-left: 300px;
+  margin-top: -70px;
+  font-size: 10px;
+}
+.footer .contact-info {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.footer .contact-item {
+  margin-right: 25px;
+  margin-top: 15px;
+  width: 35px;
+}
+.footer .footer-inner2 {
+  margin-left: 450px;
+  margin-top: -90px;
+}
+.footer .copyright {
+  margin-left: 180px;
+  margin-top: 30px;
+}
+.footer .imgfooter {
+  width: 80px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.footer .redes .icono-wsp {
+  width: 50px;
+  position: fixed;
+  right: 25px;
+  bottom: 50px;
+}
+
+.contenedor {
+  max-width: 120rem;
+  margin-bottom: 250px;
+  font-family: "Libre Franklin", sans-serif;
+}
+.contenedor .container-principio {
+  position: relative;
+}
+.contenedor .imgprincipal {
+  height: 350px;
+  width: 100%;
+}
+.contenedor h1 {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 50px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 300px;
+  margin-top: 150px;
+  background-color: transparent;
+  color: #fffffc;
+  padding: 10px;
+}
+
+.boton {
+  background-color: #e0ffb3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 25px;
+  width: auto;
+  padding: 10px 10px;
+  /*movimiento el boton*/
+}
+.boton:hover {
+  background-color: #b7ee65;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Roboto Serif;
+  color: black;
+  background-color: #f5ffe2;
+}
+
+.pagquehacer .tituloquehacer {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 50px;
+  margin-left: 150px;
+  background-color: transparent;
+  color: #fffffc;
+}
+.pagquehacer .tituloquehacer h1 {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 50px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 300px;
+  margin-top: 150px;
+  background-color: transparent;
+  color: #fffffc;
+  padding: 10px;
+}
+
+.margendelapagquehacer .parrafoquehacer {
+  font-size: 14px;
+  text-indent: auto;
+}
+
+.tam_primerimg {
+  height: 450px;
+  width: 100%;
+}
+
+.margendelapagquehacer {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/*BUSCADOR*/
+.navbarbuscador2 {
+  margin-left: 450px;
+  width: 400px;
+}
+
+.tituloquevisitar {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 70px;
+  margin-left: 150px;
+  background-color: transparent;
+  color: black;
+}
+.tituloquevisitar h1 {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 50px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 300px;
+  margin-top: 150px;
+  background-color: transparent;
+  color: #fffffc;
+  padding: 10px;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-left: 490px;
+}
+
+.tituloeventos {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 70px;
+  margin-left: 200px;
+  background-color: transparent;
+  color: #fffffc;
+}
+.tituloeventos h1 {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 50px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 300px;
+  margin-top: 150px;
+  background-color: transparent;
+  color: #fffffc;
+  padding: 10px;
+}
+
+.titulodatosutiles {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 70px;
+  margin-left: 150px;
+  background-color: transparent;
+  color: #fffffc;
+}
+.titulodatosutiles h1 {
+  font-size: 60px;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 1000;
+  line-height: 50px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 300px;
+  margin-top: 150px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  header nav {
+    display: none;
+  }
+  header img {
+    width: 150px;
+    margin-left: -45px;
+  }
+  header .navbar {
+    width: 150px;
+  }
+  .contenedor h1 {
+    display: none;
+  }
+  main {
+    /*modificaciones pagina que visitar*/
+  }
+  main .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .imgprincipal {
+    height: 200px;
+    width: 100%;
+  }
+  main .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .grid-item {
+    margin-bottom: 20px;
+  }
+  .pagquehacer .navbarbuscador2 {
+    display: none;
+  }
+  .pagquehacer .tam_primerimg {
+    height: 200px;
+    width: 100%;
+  }
+  .footer .imgfooter {
+    display: none;
+  }
+  .footer {
+    background-color: #f5ffe2;
+    margin-left: 0;
+    height: 20px;
+  }
+  .footer-inner2 {
+    display: none;
+  }
+  h6 {
+    display: none;
+  }
+  .footer .contact-info {
+    display: none;
+  }
+  .footer .contact-item {
+    display: none;
+  }
+  /*pagina quehacer*/
+  .pagquehacer .margendelapagquehacer .parrafoquehacer {
+    margin-left: -80px;
+  }
+  /*menu*/
+  .header .menu .navbar-toggler {
+    display: block;
+    background-color: red;
+  }
+}/*# sourceMappingURL=style.css.map */

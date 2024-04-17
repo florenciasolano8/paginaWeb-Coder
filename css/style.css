@@ -54,7 +54,12 @@ header .menuheader .container-fluid { /*menu */
   align-items: center;
 }
 .main .titulo {
+  font-size: 30px;
+  font-weight: bold;
   margin-top: 5px;
+  margin-top: 45px;
+  text-align: center;
+  font-style: "Ubuntu";
 }
 .main .img-container {
   display: flex;
@@ -189,9 +194,12 @@ header .menuheader .container-fluid { /*menu */
   margin-top: -70px;
   font-size: 10px;
 }
+.footer .tituloenfooter {
+  font-size: 18px;
+}
 .footer .contact-info, .footer .contact-info1 {
   margin-left: 50px;
-  margin-top: 10px;
+  margin-top: -15px;
 }
 .footer .contact-item {
   margin-right: 25px;
@@ -338,7 +346,7 @@ body {
   padding: 10px;
 }
 
-h3 {
+h2 {
   margin-top: 50px;
   margin-left: 490px;
 }

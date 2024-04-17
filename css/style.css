@@ -4,13 +4,18 @@ header {
   background: linear-gradient(to left, #80e961, #daf800);
   display: flex;
   padding: 15px;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   max-width: 100%;
+  /*menu*/
 }
 header img {
   width: 200px;
-  margin-left: -60px;
+}
+header nav {
+  margin-top: 5px;
+  margin-right: 120px;
 }
 header nav ul {
   display: flex;
@@ -18,7 +23,6 @@ header nav ul {
 }
 header nav ul li a {
   margin: 10px;
-  list-style-type: none;
   font-weight: 500;
   color: #3e9219;
   text-decoration: none;
@@ -28,15 +32,24 @@ header nav ul li a:hover {
   color: black;
   margin: 20px;
 }
-header .navbar { /*buscador*/
-  background-color: transparent;
-  width: 200px;
-  margin-top: -10px;
+header .navbar1 { /*buscador*/
+  width: 180px; /* Ajusto el ancho para ocupar todo el contenedor */
+  margin-top: 2px; /* Ajusto el margen superior */
+  margin-left: -100px;
 }
-header .menuheader .container-fluid { /*menu */
-  margin-top: 15px;
-  margin-right: -1120px;
-  width: 10px;
+header .menuheader {
+  display: flex;
+  align-items: center; /* Alineo los elementos al inicio */
+  justify-content: flex-end; /* Espacio entre .navbar y .menuheader */
+  width: 100%; /* Ajusto el ancho para ocupar todo el contenedor */
+  margin-top: -62px; /* Ajusto el margen superior */
+  margin-left: 25px;
+}
+header .menuheader .navbar {
+  margin-top: 15px; /* Ajusto el margen superior */
+}
+header .menuheader .navbar .container-fluid {
+  width: 100%; /* Ajusto el ancho para ocupar todo el contenedor */
 }
 
 .main {
@@ -235,7 +248,7 @@ header .menuheader .container-fluid { /*menu */
   position: relative;
 }
 .contenedor .imgprincipal {
-  height: 350px;
+  height: 450px;
   width: 100%;
 }
 .contenedor h1 {
@@ -246,7 +259,7 @@ header .menuheader .container-fluid { /*menu */
   position: absolute;
   z-index: 1;
   margin-left: 300px;
-  margin-top: 150px;
+  margin-top: 180px;
   background-color: transparent;
   color: #fffffc;
   padding: 10px;
@@ -278,13 +291,14 @@ body {
   background-color: #f5ffe2;
 }
 
-.pagquehacer .pagquehacer {
+.pagquehacer {
   font-size: 60px;
   font-family: "Ubuntu", Sans-serif;
   font-weight: 1000;
   line-height: 50px;
   margin-left: 150px;
   background-color: transparent;
+  /*BUSCADOR*/
 }
 .pagquehacer h1 {
   color: #fffffc;
@@ -299,26 +313,21 @@ body {
   background-color: transparent;
   padding: 10px;
 }
-
-.margendelapagquehacer .parrafoquehacer {
-  font-size: 14px;
-  text-indent: auto;
-}
-
-.tam_primerimg {
+.pagquehacer .tam_primerimg {
   height: 450px;
   width: 100%;
 }
-
-.margendelapagquehacer {
+.pagquehacer .margendelapagquehacer {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
-
-/*BUSCADOR*/
-.navbarbuscador2 {
+.pagquehacer .margendelapagquehacer .parrafoquehacer {
+  font-size: 14px;
+  text-indent: auto;
+}
+.pagquehacer .navbarbuscador2 {
   margin-left: 450px;
   width: 400px;
 }
@@ -405,21 +414,39 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: row; /* Cambio la dirección a columna */
+    align-items: center; /* Alineo los elementos al centro verticalmente */
+    justify-content: space-between; /* Espacio entre los elementos */
+    /*menu*/
+  }
+  header img {
+    margin: 10px;
+    width: 150px;
+    margin-top: -5px;
+  }
   header nav {
     display: none;
   }
-  header img {
-    width: 150px;
-    margin-left: -45px;
+  header .navbar1 {
+    width: 180px; /* Ajusto el ancho para ocupar todo el contenedor */
+    margin-top: -8px; /* Ajusto el margen superior */
+    margin-left: -100px;
   }
-  header .navbar {
-    width: 150px;
+  header .menuheader {
+    display: flex;
+    align-items: center; /* Alineo los elementos al inicio */
+    justify-content: flex-end; /* Espacio entre .navbar y .menuheader */
+    width: 100%; /* Ajusto el ancho para ocupar todo el contenedor */
+    margin-top: -76px; /* Ajusto el margen superior */
+    margin-left: 25px;
   }
-  header .menuheader .container-fluid {
-    /*menu */
-    margin-top: 15px;
-    margin-right: -350px;
-    width: 10px;
+  header .menuheader .navbar {
+    margin-top: 30px; /* Ajusto el margen superior */
+  }
+  header .menuheader .navbar .container-fluid {
+    width: 100%; /* Ajusto el ancho para ocupar todo el contenedor */
   }
   .contenedor h1 {
     display: none;
@@ -524,7 +551,7 @@ h2 {
     margin-left: -230px;
     margin-bottom: -25px;
   }
-  footer .footer-inner h6 {
+  footer .footer-inner .tituloenfooter {
     display: none;
   }
   footer .footer-inner .contact-item {

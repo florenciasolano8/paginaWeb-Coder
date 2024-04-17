@@ -1,26 +1,42 @@
 @media screen and (max-width: 767px) {
   header {
-    nav {
-      display: none;
-    }
-
+    display: flex;
+    flex-direction: row; /* Cambio la dirección a columna */
+    align-items: center; /* Alineo los elementos al centro verticalmente */
+    justify-content: space-between; /* Espacio entre los elementos */    
     img {
+      margin: 10px;
       width: 150px;
-      margin-left: -45px;
+      margin-top: -5px;
+    }
+nav{
+  display: none;
+}
+    .navbar1 {
+      width: 180px; /* Ajusto el ancho para ocupar todo el contenedor */
+      margin-top: -8px; /* Ajusto el margen superior */
+      margin-left:-100px ;
     }
 
-    .navbar {
-      width: 150px;
+    /*menu*/
+    .menuheader {
+      display: flex;
+      align-items: center; /* Alineo los elementos al inicio */
+      justify-content: flex-end; /* Espacio entre .navbar y .menuheader */
+      width: 100%; /* Ajusto el ancho para ocupar todo el contenedor */
+      margin-top: -76px; /* Ajusto el margen superior */
+      margin-left: 25px;
+      .navbar {
+        margin-top: 30px; /* Ajusto el margen superior */
 
-    }
-
-    .menuheader .container-fluid {
-      /*menu */
-      margin-top: 15px;
-      margin-right: -350px;
-      width: 10px;
+        .container-fluid {
+          width: 100%; /* Ajusto el ancho para ocupar todo el contenedor */
+        }
+      }
     }
   }
+
+
 
   .contenedor {
     h1 {
@@ -178,7 +194,7 @@
         margin-bottom: -25px;
       }
 
-      h6 {
+      .tituloenfooter {
         display: none;
       }
 

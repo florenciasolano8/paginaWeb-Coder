@@ -2,21 +2,22 @@ header {
   background: linear-gradient(to left, #80e961, #daf800);
   display: flex;
   padding: 15px;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   max-width: 100%;
   img {
     width: 200px;
-    margin-left: -60px;
   }
   nav {
+    margin-top: 5px;
+    margin-right: 120px;
     ul {
       display: flex;
       list-style-type: none;
       li {
         a {
           margin: 10px;
-          list-style-type: none;
           font-weight: 500;
           color: #3e9219;
           text-decoration: none;
@@ -29,15 +30,28 @@ header {
       }
     }
   }
-.navbar { /*buscador*/
-    background-color: transparent;
-    width: 200px;
-    margin-top: -10px;
-  }
-  .menuheader .container-fluid{  /*menu */
-    margin-top: 15px;
-    margin-right:-1120px;
-    width:10px;
-  }
+  
 
+  .navbar1 {/*buscador*/
+    width: 180px; /* Ajusto el ancho para ocupar todo el contenedor */
+    margin-top: 2px; /* Ajusto el margen superior */
+    margin-left:-100px ;
+  }
+  
+    /*menu*/
+    .menuheader {
+      display: flex;
+      align-items: center; /* Alineo los elementos al inicio */
+      justify-content: flex-end; /* Espacio entre .navbar y .menuheader */
+      width: 100%; /* Ajusto el ancho para ocupar todo el contenedor */
+      margin-top: -62px; /* Ajusto el margen superior */
+      margin-left: 25px;
+      .navbar {
+        margin-top: 15px; /* Ajusto el margen superior */
+
+        .container-fluid {
+          width: 100%; /* Ajusto el ancho para ocupar todo el contenedor */
+        }
+      }
+    }
 }

@@ -1,36 +1,34 @@
 .pagquehacer {
+    .pagquehacer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
         font-size: 60px;
-        font-family: "Ubuntu", Sans-serif;
         font-weight: 1000;
-        line-height: 50px;
         margin-left: 150px;
-        background-color: transparent;
-    
+    }
     h1 {
+        font-family: "Ubuntu", Sans-serif;
+
         color: #fffffc;
         font-size: 60px;
-        font-family: "Ubuntu", Sans-serif;
         font-weight: 1000;
-        line-height: 50px;
         position: absolute;
         z-index: 1;
         margin-left: 480px;
-        margin-top: 150px;
+        margin-top: 160px;
         background-color: transparent;
         padding: 10px;
       }
-      .tam_primerimg {
+      .imgprincipal {
         height: 450px;
         width: 100%;
     }
     
-
+}
 
 .margendelapagquehacer{
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 60px;
-    margin-bottom: 60px;
 .parrafoquehacer {
     font-size: 14px;
     text-indent: auto;
@@ -39,9 +37,15 @@
 }
 
 
+.margendelapagquehacer {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 /*BUSCADOR*/
 .navbarbuscador2 {
     margin-left: 450px;
     width: 400px;
-}
 }

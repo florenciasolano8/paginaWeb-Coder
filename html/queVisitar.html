@@ -1,261 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CORDOBA |Que visitar</title>
 
-    <!--LINK DE BOOTRSTRAP -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CORDOBA |Que visitar</title>
 
-    <link rel="stylesheet" href="../css/style.css" />
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
-      rel="stylesheet"
-    />
+  <!--LINK DE BOOTRSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="stylesheet" href="../css/style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+</head>
 
-  
+<body>
+  <header class="header">
+    <img src="../img/logo.png" alt="logodecordoba" class="logo" />
+    <!--primera parte-->
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="quehacer.html">Que Hacer</a></li>
+        <li><a href="quevisitar.html">Que Visitar</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+        <li><a href="datosutiles.html">Datos Útiles</a></li>
+      </ul>
+    </nav>
+    <div>
+
+      <!--BUSCADOR-->
+
+      <div class="navbar1">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          </form>
+        </div>
+      </div>
 
 
-  <body>
-    <header class="header">
-      <img src="../img/logo.png" alt="logodecordoba" class="logo" />
-      <!--primera parte-->
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="quehacer.html">Que Hacer</a></li>
-          <li><a href="quevisitar.html">Que Visitar</a></li>
-          <li><a href="eventos.html">Eventos</a></li>
-          <li><a href="datosutiles.html">Datos Útiles</a></li>
-        </ul>
-      </nav>
-      <div>
-      
-           <!--BUSCADOR-->
-      
-           <div class="navbar1">
-            <div class="container-fluid">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              </form>
-            </div>
-          </div>
-    
-      
       <!--MENU-->
       <div class="menuheader">
-      <div class="navbar">
-        <div class="container-fluid d-flex justify-content-end">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
+        <div class="navbar">
+          <div class="container-fluid d-flex justify-content-end">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"     aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
 
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            
-            <div>
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="https://www.google.com/?hl=es"
-                    >Prestadores</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://www.google.com/?hl=es">Preguntas Frecuentes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://www.google.com/?hl=es">Telefonos Utiles</a>
-                </li>
- 
-                </li>
-              </ul>
+              <div>
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://www.google.com/?hl=es">Prestadores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.google.com/?hl=es">Preguntas Frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.google.com/?hl=es">Telefonos Utiles</a>
+                  </li>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
-    </header>
+  </header>
 
-    
-    <section>
-      <!--segunda parte-->
-      <div class="tituloquevisitar">
 
+  <section>
+    <!--segunda parte-->
+    <div class="tituloquevisitar">
       <h1>Qué Visitar</h1>
-      </div>
-      <img src="../img/imgquevisitar.png" alt="corso" class="tam_primerimg" />
+    </div>
+    <img src="../img/imgquevisitar.png" alt="corso" class="imgprincipal" />
 
 
-
-
-
-      <div class="buscadorpagquevisitar">
-        <h2>Buscar Localidades</h2>
-          <!--buscador-->
-        <div class="navbarbuscador2">
-          <div class="container-fluid justify-content-center">
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-          </div>
+    <div class="buscadorpagquevisitar">
+      <h2>Buscar Localidades</h2>
+      <!--buscador-->
+      <div class="navbarbuscador2">
+        <div class="container-fluid justify-content-center">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
         </div>
       </div>
+    </div>
+  </section>
 
-
-
-    </section>
-
-
-    <main class="main">
+  <main class="main">
     <!--tercer parte-->
 
-<div class="grid-container">
-  <div class="grid-item">
-    <a href="https://www.cordobaturismo.gov.ar/localidad/arroyo-de-los-patos/">
-    <div class="texto-superpuesto">
-      <p class="textodecards">Arroyo de los Patos</p>
-      <p>Mas información >></p>
+    <div class="grid-container">
+      <div class="grid-item">
+        <a href="https://www.cordobaturismo.gov.ar/localidad/arroyo-de-los-patos/">
+          <div class="texto-superpuesto">
+            <p class="textodecards">Arroyo de los Patos</p>
+            <p>Mas información >></p>
+          </div>
+      <img src="https://www.cordobaturismo.gov.ar/wp-content/uploads/2023/01/012-Gentileza-de-Turismo-Almafuerte-en-BAJA-400x259.jpg"         alt="rio_con_personas_atardecer" class="imggrid">
+        </a>
+      </div>
+
+      <div class="grid-item">
+        <a href="https://www.cordobaturismo.gov.ar/localidad/anisacate/">
+          <div class="texto-superpuesto">
+            <p class="textodecards">Anisacate</p>
+            <p>Mas información >></p>
+          </div>
+          <img src="https://www.cordobaturismo.gov.ar/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-22-at-16.55.24-400x267.jpeg" alt="rio_con_personas_dia" class="imggrid">
+        </a>
+      </div>
+
+
+      <div class="grid-item">
+        <a href="https://www.cordobaturismo.gov.ar/region/calamuchita/">
+          <div class="texto-superpuesto">
+            <p class="textodecards">Calamuchita</p>
+            <p>Mas información >></p>
+          </div>
+          <img src="https://www.cordobaturismo.gov.ar/wp-content/uploads/2023/07/WhatsApp-Image-2022-08-31-at-13.45.22-400x300.jpeg"
+            alt="dique" class="imggrid">
+        </a>
+      </div>
+
+
+      <div class="grid-item">
+        <a href="https://www.cordobaturismo.gov.ar/region/ansenuza/">
+          <div class="texto-superpuesto">
+            <p class="textodecards">Ansenuza</p>
+            <p>Mas información >></p>
+          </div>
+          <img src="https://www.cordobaturismo.gov.ar/wp-content/uploads/2023/07/370dcab399befa89e34dab6077ac6ff5-e1610690364414-400x218.jpg"
+            alt="mar" class="imggrid">
+        </a>
+      </div>
+
+
+      <div class="grid-item">
+        <a href="https://www.cordobaturismo.gov.ar/region/punilla/">
+          <div class="texto-superpuesto">
+            <p class="textodecards">Punilla</p>
+            <p>Mas información >></p>
+          </div>
+          <img src="https://www.cordobaturismo.gov.ar/wp-content/uploads/2022/08/MIYDQYZTME3DGYRZGFSDINJUGA-400x267.jpg"
+            alt="rio_entre_la_ciudad" class="imggrid">
+        </a>
+      </div>
+
+
+      <div class="grid-item">
+        <a href="https://www.cordobaturismo.gov.ar/region/traslasierras/">
+          <div class="texto-superpuesto">
+            <p class="textodecards">Traslasierra</p>
+            <p>Mas información >></p>
+          </div>
+          <img src="data:image/jpeg;base64,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"
+         alt="rio_fondo_montañas" class="imggrid">
+        </a>
+      </div>
     </div>
-    <img src="https://www.cordobaturismo.gov.ar/wp-content/uploads/2023/01/012-Gentileza-de-Turismo-Almafuerte-en-BAJA-400x259.jpg" alt="rio_con_personas_atardecer" class="imggrid">
-    </a>
-  </div>
-  
-  
-
-<div class="grid-item">
-  <a href="https://www.cordobaturismo.gov.ar/localidad/anisacate/">
-    <div class="texto-superpuesto">
-      <p class="textodecards">Anisacate</p>
-      <p>Mas información >></p>
     </div>
-  <img src="https://www.cordobaturismo.gov.ar/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-22-at-16.55.24-400x267.jpeg" alt="rio_con_personas_dia" class="imggrid" >
-</a>
-</div>
-
-
-<div class="grid-item">
-  <a href="https://www.cordobaturismo.gov.ar/region/calamuchita/">
-    <div class="texto-superpuesto">
-      <p class="textodecards">Calamuchita</p>
-      <p>Mas información >></p>
     </div>
-  <img src="https://www.cordobaturismo.gov.ar/wp-content/uploads/2023/07/WhatsApp-Image-2022-08-31-at-13.45.22-400x300.jpeg" alt="dique" class="imggrid" >
-</a>
-</div>
 
-
-<div class="grid-item">
-  <a href="https://www.cordobaturismo.gov.ar/region/ansenuza/">
-    <div class="texto-superpuesto">
-      <p class="textodecards">Ansenuza</p>
-      <p>Mas información >></p>
-    </div>
-  <img src="https://www.cordobaturismo.gov.ar/wp-content/uploads/2023/07/370dcab399befa89e34dab6077ac6ff5-e1610690364414-400x218.jpg" alt="mar" class="imggrid" >
-</a>
-
-</div>
-
-
-<div class="grid-item">
-  <a href="https://www.cordobaturismo.gov.ar/region/punilla/">
-    <div class="texto-superpuesto">
-      <p class="textodecards">Punilla</p>
-      <p>Mas información >></p>
-    </div>
-  <img src="https://www.cordobaturismo.gov.ar/wp-content/uploads/2022/08/MIYDQYZTME3DGYRZGFSDINJUGA-400x267.jpg" alt="rio_entre_la_ciudad" class="imggrid" >
-</a>
-
-</div>
-
-
-<div class="grid-item">
-  <a href="https://www.cordobaturismo.gov.ar/region/traslasierras/">
-    <div class="texto-superpuesto">
-      <p class="textodecards">Traslasierra</p>
-      <p>Mas información >></p>
-    </div>
-  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgWFRUZGBgaGBoaGBgcHBoaGBkZGhkaGhoaGhocIS4lHCErIRoaJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzQrJSs0NDQ0NDc2NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBFAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAECAwUGBwj/xAA5EAABAwIEAwYGAQMEAgMAAAABAAIRAyEEEjFBBVFhEyJxgZGhBjKxwdHwUhVC4RRykvEjQxYzgv/EABoBAAMBAQEBAAAAAAAAAAAAAAABAgMEBQb/xAAnEQACAgICAgICAQUAAAAAAAAAAQIRAxIhMUFRBBMUYaEiMkJxkf/aAAwDAQACEQMRAD8A0wxPlVuRPlXvnglbWc0iLq3KllQFkWvIkA6qLWq3InDEUhNshnO8FSbVcNDE6wpZUsqNUPZjsxT2n5ifEmE1fEOfqmhKEtY3dD3lVWSo0G6ucRzEfdQrtaT3GwBuTcp4SDUa83YbKqosoYW8uuPS34RT+Iloys2tdCOeTqVCFLhs/wCopZNVURVaznGSVW6TqrISLVoopdGbk32U5Uzr81dlTZUxWVZFEtV+VMWoED5UsiuLUsqAKMqbKry1NkQUUZE2REFqiWoApLE2VXZU2VAFJaolivLUxagCgtUHNV7goEJAUFqgWq8tUS1AFGVJX5UkDAGcZqB5MghutoLsp7zWjn1/6WiOPMk6RBg31GgIi3quWzg30ANhaTMkW1IsddPNW0QHTDQLESdJje83E7cl4Ufk5bqL79noPDGuUdJ/WZIhjoiXaCNDYzflC1qFQPEidp6TePFc3hK9NhDXOzZWxYRJ6guIEdD7LVwnFGZDkLLaAWkwbRtp4WXbhztf3yRzzxr/ABRq5EsinQeHiRf6KzIuxTTVo52qKcibIr8iWRPYVFGRLIr8iWRGwUUZEsivyJZEbCoHyp8ivyJZEbBRRkTZURkTinKNh0C5UsqM/wBM7koOpEao3Q9WClqRaiCxNlVbE0D5Uxary1LIixA+RNkRGRNkRZQOWJsqvypZU7AHyJixEFiRagAYsUXNRBaq3NRYA5aoFqJLVHIgActUS1WVGH/oX9dAhMTh3GIMGdXd5p6Oa0iPEEfZS2UkWZ2/yHqEyFz1BbsqZ6teI9HCR4JKNh6nJ0i8a2cIJjvSZNzI8kYxjy2GlpkDvEHS30F0LgXj+4Et5iTHImwg/hadNkCW6Hff8j2XycptHs62BVKjWZhlJJggiO6P7soJFrTqd0+FqWB+QWkQCReZAHLXSTKtdQBYZJ+aWknW4gWPTkh3UH6ZdBIMi/mYvM8tVrHJfdEa0egfDWLa9mQPLy2+YjY8yOs63hbeRcr8HY3DshlYva8mxygi8Ni17c43XY1X0/7Xgjy+y9j4+dOKVnBmwtStFGRLIrmPYTqPoiAxuzZ8/bVdH2IzWKXngBFNLItejw4EmXAdB/lRxWBaz/2Nb/uICn743Vl/ROroysiQZ0Wg3BEiWkO3sZt0O6pfQI1CpZE+mZvHKPaBciWREimiW8PedoHMlDyJdsIwlLpGb2acU1oDCCLm/hZJmFH9ziDtAkJfailhl6AmyOak4zqEV/oHH5e97fVMeHP3b7j8pfZD2PSa4pgRZ0VZpLSfgy3Vp8pKi2g03JLemv1TWVdjeGXRmupFR7NadTCfxJP1QxbzCuORPozljcXyBliWRElqYgcwq3RKg2D5E2VXjL/IeqtZRBElwjxb+UPLFeSlhk/AEWKBai6uQf3ADaTus9/EKMx2rJ/3D6qo5ExSg0Sc1RLFU/ilAf8Atb5GforKOKpv+V7Dv8wn0T3FoxixMWLQoYXP/eweLvwqsTSazWoz1b9z9ioeaN1ZosM2roCc1VNoZ5t5Hl1B1lOMbSJI7QT0g/ZVO4wynLtSLB0AwdYykxtfUX21ETzJLgqGByfIM+m5pjLn629LmUlM/EjH94uZJ5AEfQx4fXUpZfkI1/H/AGcVjaLntBaS1zQbWi40PLTZW0qDmt7zZJvvAHhO5n11VuDrnKMzgTMEGAdgfz6WV7Wjck2kaQvm3Jr+k9BIWJq5GtAY4kuymNLkC523VXbvHdEGwFrzF75vG3krKjJEuGm+nkQdT+NkKQWucTBaQMoH9tr9I3SilRMuyzC4mXBwb3mmxB0J1uLHZaGHx72NGUn5jG5PU25hYlavmkCBbvX7wBHzAWte6Pw+LGjWnyiPKVfK5RIY/iFR+bM8gC3KfyqHYsiJdr15IGrUe5zjBAmCSLA6wSLT5q1lN1tHAkXBjXnK6IfInD0TKNmkzGv6G1ku3nVknnP2R9HihYwAsbNwSGiCOcAIb/5AwuADSBbMAADHMQLBdsflwroHj/Y9HiL2RyGgkgjwIgrUw3xI9o7wfJ0IcTPk+fVRwmNpuByuyb6j17yH4nxhzDkBzHm1neE8om+9uqr8iDVpfyCg/ZvYf4qZAc6AdPkd9RK0qHxGx4hrmm/Mg+hXnjMe5rS095xe3umCHAC9vfmo4Bj6h7rHHvE3Hyt26A2Fp3WazRl3a/kFGukj0v8AqbjpHok3iTxfunyP5WBhc7WgZ8zty7/H5RxrQJt1Cpt+zRJejRfxaqTZ2Xwa37hQ/qtWIzTvdolZlPEZjfTwVNfiFMGC9ublIJSVg6Ng8Vq/yt4BUVOIv/l7BZtHFg6RBV+dpGgEeyNmg1TCmY2pz9kOajibvcfO2ypbVN/NUuedjP8AjRPd+w1j6LmU3ScxJI0vY9fqrgeeqBqcTptID3tY6ZALgCfBAV+OsJgSRNyB9jroolNJ8sOEGZy0kfxJ8+SIPeGYCDAtNhcH7LKrcXoPghxDxH9pBImBP7v1ReHxIF5162V7KStCXoligXMcOYcNNIXLYnDOa4DY6GNea6w1GnS0jyQE97K+Bl57dfOy0x5HGyJwUjncRQLNj52/dlW2m+MxBy84W8+nnu92a5gQABy01RNKsHtyGLWAOjukFavPS6JWFGFQx7mjLBjSxgjrZTqv7Ud11hudR4g8kTisAJljhEF2U6gC9jvZUNo02vy5oB+dhkTsCDsPDS/lLlF8rseslwwJz4Y0sGYmIJlouNt9enmhcTxB7AWuOZo+ewltie6fG06GblWYfEXb3rd5xm5Aa5zGA7bTCz6+LY5vaB0Oc8lt4gEkADl3QJ89lnKXocUZwY4yadSGzoZ13i+iSqrUngwyItzF45AwnWWxdHTZmCHMYfP3k6x+VJ2JaBMzJ1uAddtcogrQq4R4d3nNI3GsHY+6g/hzXlrspBaJFu66BfReZSfZsjJfiXuBYGwIkk6nWw5+B6qplR0iLjTKQAABqBHzHwGyLxOEBhpz5g/w10MRe6sp4MtIaQZ0DovbefL3VUkZtcgbsOwODpDXEaTcga735eSuAaA6wykd2DbUmdNZCNbhwCMzQLfOfmkkaEePsjzhY/8AI2vbRwLSJyzBB0kjX0R/sKOdpPy20uZLTMnU+XotPDkA9y4gZthc211WnUwTKgzOLCwQbZmOB2kAQUPisO5kMDIa50hxaXeQcG+GvNU3xwh16AGVX54kERruZ0b4QrMsT3O9MWE6GD4Qrn4BtN8NJLg3kRk3y3mTMXjdHYbBF7M7wQASALyTGvPnfqVPHgKMuk8AlmhnNlAAnYGRso18UWmWEuO8SIAvqPALYOCpiMxbNtyQBsJjqhH8DaZ7N1MaTe89f0+SarwKvRn1e8QbzFnTJAO0k2HhyReCkOzOeY2ieUQOUlTxHDMQAOzaKg0Ibc5vE7KbuEV2HvscAdHBroE8zoPNNOS5Cgvtab3QSQdy5zhHgZug6jySQ17/AAzH99lI8HNnOcIaDmuAAOp5/nyVIwb8wim4sMFr2ZiII3y2OvPZbx+TNL2TKNkS3MYc/aQHE7clVXcGCxAJHg4CY/ekp8ThXCYYc0l0OGVx8J5xohMbQquykC5AEQAZjXYm287K38qT6EoJBeA4i5l7G2hKMrfEwYwwLjncf5CwCx4lpaZkbaz9ULjMLUf8suJNw0aRveyn73JU/wDoJV0a7OPYmrIptgSe8YsNpJtojcBxGq2RUe17iO6IjxgiNgdtli8EYWhzHDR0WFp+Ug2mZt5wtl2FA7zTcSDFxcyCLbE/VYTzSTpBbMb4gfmrZ3EkO6BvdH9s8r6+Kb/XbMkmBcwIJgAT59NFdxCkXsDs0BjSSIs6ALg2jl6IdmNAIFrgRYSRG/hyRttFN8sCePc8NaWkkjPmI+UAGdfNX8N44Rao0ZRYOvYgaHnKlhqwLJc4AC0fLeIPghqb6TQ1gyuDudy6LkCDBiQqx5HEKNarxJ7wBSLGnkT3jpEWgePVY+IxlVz4qEkgkc4n5R6Gfuj6TGAWAAOgg90jr6Ies3XuiDIkC41naeZCTzNyd9B4DeG4hxZlLtInl4A7q7EuBYXAyQJEHlcBYjsbADQAOhgH/jqPRZuM4i9pJY4t2MRBEch4LqhkTjQubN6rxlsAvN2v23DgTHgeu4FkLjcf3QcziWtnRtwNx5RYclzTiXML5ABdBBtYzeehA9VXUxGZjRMnvMnmCQfx6KtvQ6bHNZx7uYgNH8rd6J9p907ajnEATAnkLc3HbeyHbRcBoBfU7D8Qr3sMFtwABbcyGzPW4vtMKXIdIg2o43BEeaSrxDXF1hAFhHRJMqkepPrPeAC6w5gTpzVYNRoIJJEGLEHl5iSP+K1cN8PVWDOHNLHBpDRJJGoE7a9fZNieDOc5vfaIFxflP5/dPNtrs1cGuQWmS1ge6NLCBr6e6jBccxdABBAF5GslX4rhzmhpJmwMAWi4301J8/FEnBjLmEzF4gQBJ16D69FDbJ1ZnjDgnvC06bDx5i6vq5QIsOQ97/VaLabGNBPOYcJPttZX0sFSLO0zOc+B3e7GsEwRMWQnY1D2YD6JAcSSO9EchePr9Edh8TVBDWtJtsNQBcnw+6epQMkZLE9bgxM6R5cka97Axrg3vkkZWg5hHK8GQDyF1cdhxgBY/O4RlBIAzGIgDTwKArA92HRc+MRFj1n3Tf1Eh7WuDyXvMh13BoGpI3tpC1MM4kMygbmbGDtHOynZoHGzDDSHSbf9ixP/ABUnDukReSSOltT5+Urtv6fh6rBnY1pi7mAg69DBuEHU+GaIByVvJwHKLxraPRXTaF9T8GNw3FsY0wTmdOu2sR9wjsD8QPb82ZwDTlAJ1Bd+whv6S+m+YzNixaZkw46bG41W98MYZkE1CMxMiQAR/wDoJxlK6BQkc+3jQe2XAgXA7zwOY3Wg3izGtBcxwceXpvpsV2tYYdxlwY60Xg26E6eSBrcLwT25SxsaiC4OB8ZlaU10wUWZuEZTqUwXw8ZtHNnKT8uvW1k1bgdCqIaCwi0jumx07wIhamHZQptyMbDcsC5J9HanqrmvoOIc6Gnzb6xYq01XJWrOZrfDjyYa9pIO9ndIEEHxUq/wk9wA7gcJv8vSSG89ddvJbvEsO1rMzbloJY6SHjMbtzbg2Ea2B1AR9N4yyWPMCZlsm2ph0bI1iTRwGF+Ba9LMWua4vcCZdmA2JmJiEFU4HVouJLTaDOlpgD2Xo7MRTeNfJxEgjoCVe2o0CARHKdPRTKEX5DQ8qo8IcTmPcvGYsJE9SDH7opf0RjO9kaDo5pbDid7aa7L0bHUw6CwtaQ4EywOzDSJzAjxB2WRxrDipkPaNY5maJbnmdj/5A4AbCdfOZUKXDDSjg8RwNr25WuLIOsA3gmS067HUIej8OvYQ9rm5t3aB7d5aPDVd03C0Sw97vQ2ZgtvkmAC2edxF5hY/EKTGDOzEF7yDIcCWkAgDu0zmFvzslUlxYaoxncJLQ89oA3wMCQRDb35aDaUEMFDSc/dixIE8vsR5FSwjalZre+A7MS17iW02kEkSwtvpujeHcMD3ObVqBxphwLmQWPJmCIBILYiLRe40NRhxyS4o57HUGTmL7EwAQY21PqsPFsAuXDI64jWQYMTfbUrSxeIDDGe4A7zSCI5OjUfYjTVZVVpqEkkAeFmNaJMDcRMN6raCohpA9GgXSALCztzOkR7zYDfaZMqtYcvLUgyeR/Qi6lYghgsxo7rRHetdxjUzaTuTpohMVhCw5v5d4DU8725+xCu74YBLXl5DQYLrn5QGgj5nOOlvtup4zEta8x3rmLEANuRebm40G/khKT2WFxqS4QHHmZIMDQAfclD43EZiYEDNIGt7yZ1vvztyRqrGlyP/AKlxkyNen5SQ7CISVUgo+kcPw9wYBndlAlrS0TvAmRFuhWc/DND3B5yuMECNSd5NgOt45LaxXGKDLllSetOoSLc2tMLMxXG6VQZSx0wcp7N/dPMEtt6rmljidKkydfGUXNANBpqAAS2owubPWZi24hZ+Ip0hlayqCdCx7mh8z3mnLrpHqjKWHouY3NeQDHaFxP8Augo+ocG4ZC0QI+WRERoQRF0nitXwK0gXh2Fw4jt3NJvmaXgASNIBB0O6bieBwzWOdTrkAwWiRUa3wb8x10nZGmvhmCGMJjm4+8kysJ/xMA8jKWCRFgcugjb6oajFU0iU+SWGwznCXtLQ2e+7OGOuAO9lidDdUspNeD/aAfmh7wdiRlC2K3xFRcwB+IBa7uvZlIMEEQTBgdUN8VuosoUSxrWye4GuBDmZSST/ACExc8+qTSq0VscDxFhZiKYa9hhjm526OvpBF9Ndlq8NzgtOeBAG2oZDjcbm6CBZ8x/tcXDSBIg7qRxjWhvSQFi23wkTskdVg6LgwufUhrjbNADdbDx+ybEY2i0f/cXEfxA5c1x2I4iXmC4wLR5/4VQriLbyD7D7Kk2kH2ejpHcac55aywixJkzBj6BG8Kx7HiHnveMQOa4xuMyuFp0n3UqGPdPdEeCFtYt2dlVx/ey02ZzsWvefYBEtwmLeAWU2g6mXX8IzfVcng+N1KZsLbiSJPktyl8YsIIeKo/2Ot6khaasFL2zXouLG/wDlbD9CTLRbWJNyrDxegz5nU28rZj63XB8V4y+q4gOc1k2BdmPiSd/BZWKxBmZOlv31VNOPgNvR3+J+JKIcGyXhpsBmy3ved/ytrh3FKtc5mUHCmRYkhgOxgOIJGlxZeSUu+JEk66LRofEmJw4hoa9osA9hdA6EEH3TTl5JtHfcZ4jVp3fhi1oPzy14PK7CcvnC5v8Ar9V5t3R0ssk/FVSuwtfkYDMtY3LMc5JPuhBi5kAbe6xm5W0gcvTNd3HqoEl7o11KHPHy4tnbcrn8fjcsN6X9VBmIaSb+3T/CSTrkW37Ogfxg5JE3Oyhh+MZn3FyLmOSyXV2tZ820hUU8S0gEGTohRvwGxtYqow5YgkOBFtbzfYjxWTUxRaRDokPADbE2MgQOZ9Sqn4q4Am/dgCT3hH3UqTIAOZuUNEOEHM7aIvluY59MxW0YtLkmUgGu0OfkEZrB0yQ2AS6YiwHQ6dVQ2hmDgwgC5JJDZY0FxN+gmOm6uD2tOQ5myQHPcSXmHA5TsJJAMcjqhKVYmk+DGa3Uic7mzteL+W61ViSIZ8gETmLSAbd3vA2nQ3nolUxWZoJu6PIOF2+0iOqGqVczRoInTV1yfZDh+n7vqrodCFSNhHL7Kuo6VIHS2iqCoaHASSskmB7Th/jVjx32EdBDhbxWfxL4k7UEUmljAJJ/uO8dAvPqFF8gyWtmY5zoFpU8SGAtJJzCL8tCuSV9XZaZvYP4oIhrxnaLEHYdCtAcfwEyKDwTsA2DzvNlwpkEkGJn05qQBkSbIUmuCNjqcf8AErDLabMg8ZcR4xAQjeKhzD0grBGI7xEWG/ipa39Px7pSV9ibNI8RJ1JgyVazEEnUkRbpvA8ysem43EW2+6KYXEWG6cYXwkDlQVRxTpg6GITHFknW8qf+neBooCkRe34XR+K/aJ3CqOHeb3QmJDmmNLoug2oflkckS/htWoJJE6Dn9E3gSXAbGWSZ6eI2ROAqDMDqPFaNH4be4AHYk+2qJwfwwWBpcZIJ5XG03UrE07oey9ljKbTeDfqrX4RsWbdFNwrm7KYovOjT6Fa0PgzW4Fp1CGxHCgdCtd7S3WR4iFW4FJ8hwZ+FwYbaEVUwrS2CNlbfSIVT3HnMJahaMx3B2HQx7KdLCBouSdFoZxEG0qtpEydB/lGiA5fiHDahqSAS37b/AHVIpT4257eHiuvbVBuNL257fZVvpNN4Ft4GiiWO2Jo5Sph3OLRBFgNwtLDcOy3ubb3/AHRG1KmY5thoAIhWuIY255+wVxgooS5OaxzyypIbmIEC+/2GknlyVDsS8RuXOzE72sGiLi3hM8ir+J1rGddR0kn/ABrrdYrqxBkWPPyj01UuNgTdXGxM3uTvMkx5nfdDVKpIFraiN+seKjk5ft0nHQSdwI5TcJpJFJE8PTESbiDYa6x/nwBQp11tzVva3O0gj6X9lQQmhkg6375KEplKExkUlKeidAG+4AwGuPmk6mIt+/v2UaRsJjqpZ1x2wscCGib6N6+KgHXOY+HQBKsXADS59FYzCueJF7wqUZPwRJpFBFpbpy2WpgsGXtJbpa3r+EqPCnfLAsJF9LStvgzSymGuEGT9T+V04fjOcqkmkYZMyUbTB8NhGCWvadReRqd4WoOG07Fjo3I2kabKTsv8R6KQqL0Y/GijkeeRu4TGsHzsGguAEPiXUXOJFNhnctbPrCy+2S7VV9EbsPulVGszFNaIa0DyUDiSVmdsnFVUscY9Il5JS7ZpMrkbov8AqIIgtCwu2T9qm4Rl2Ecko9G4cSNZUmYpovmg+awRWUu3WbwRNVnkdA3iLd7pjjmbNACwRVSNRL6Ih90jbr4qflaI90OADyHRZnbphVB1KX0qh/e7NCq9gBBE/RAPpMM92J5EpZm81W9/UKo449ESySfPQww7RpKZ9GQRm1EKs1Uu1TeCD8CWaa8iZhIvI8FXisLIJzTG3WDYeyn2qoq1paRPOfT8KZfHj4Lj8iV8nNcXw5aBJku9ZH77FYTgb/Xwj/K6Diz8wbOpn2Nz5n6LnqzrHa5/7XFkhqzrxy2RVm33US76eiYKLis6NiAUjdJOP3omMTRz0ScdE0ynCBE2DofdJFYbEhoiDrtEJJWxl7qkAQpB3XooUmDc3nQcleyPLVYuPggVe4CnRrlndzHaPsmFEmWtMx+z1UqWBtJuZH6FtjhJdIzlKL7N3hj33c8zOi0O0WfhzlaByVudevjWsUmcE+ZBfaJdqhO0UTUVk0Gdql2qC7RP2iAoM7VLtUH2iXaICg3tUhVQXaJdogKDu1TtrIHtEu0SCjR/1fQKDsQSge0S7RFIdBhrJjVQfaJu0QFBnbJjWQedMaiAoLNVN2iE7RI1E7FQUaqpxFS09P396ql1RVVKlj4FJsaXJm4utmYG7kkCdRy/evri4gRH7b9+i0qpBb4GAeVrLMrgDa+68/LyehiVFDnSmJTEJLnNxwU5MW9UwSIQBIH6qTqhJmb7nyj6KIt0TGECGST/ALokgDTZRJMRebHZFHCPvHL1RspZ11r4sfLOR5n4BWMeDHQc/RaVN5AgqgPSzrbHBQ6ZlKTkE9on7VDGYlMHSttkRqwrOmL0OXdU8HXVLZBqX50s6qYxx2UXy3VGy6Hqy/OnD5VTHsPzW6qvPBsZ6hLYNQgvS7RRZWBsbflO6k4bWS39j19Es6XaqjMo5lWwtQjOlnQ+ZLMjYNS8vTF6ozps6LDUI7RLtEPnTF6Ng1CO0TZkOXps6LDUJzISvXDZE7ellJz7GNYWNVeATKwy5HHhGuPGpcsILxpMeHmqixupE+MoV1RSZVXLtfZ0610WkN/i1VPpD+PnKl2nmnz/ALsk0h2wd1ONP8qqeSIqlUlvUe/4UtFpkJShSjwTQpGNCSeEkAdPKQSSXdbOPVE0sySSi2VSGc5QD0kltHoyl2RL1fSc4aGEkk5Ai92NeGge+6qxFQnaCkkoiuSm+CmCk2ZgBJJNydEpIuZTIIKJOLOhCSSzbvs0XC4B6rjcgKgkpJK4siQzXwk56SSoRHtEu0SSVCFKiXJ0lIxsyiXpklQCzIXE4cPOsH2TpKJJNcji2nwZ76JEqkSkkuKaSfB1xbokX8kg8p0kiiJeVElJJSMSQCSSAJJJJJCP/9k=" alt="rio_fondo_montañas" class="imggrid" >
-</a>
-</div>
-</div>
-</div>
-</div>
-
-    </main>
+  </main>
   <footer class="footer">
     <!-- CUARTA PARTE -->
     <img src="../img/logoveranofooter.png" alt="logodecordoba" class="imgfooter" />
     <div class="footer-inner">
       <div class="contact-info1">
-        <p class="tituloenfooter">Encontranos en</p>
-        <a href="https://www.instagram.com/turismocba/?hl=es" target="_blank"><img src="../img/instagram.png" alt="Logodeinstagram" class="contact-item"/></a>
-        <a href="https://www.facebook.com/turismocba/?locale=es_LA" target="_blank"><img src="../img/facebook.png" alt="Logodefacebook" class="contact-item"/></a>
-        <a href="https://www.youtube.com/channel/UCtZRc3h0m29bXR0CACn-VfQ" target="_blank"><img src="../img/youtube.png" alt="Logodeyoutube" class="contact-item"/></a>
-        <a href="https://open.spotify.com/show/3iBwRXTxWZy0UybGkzqgzU?si=1e5e2e6874954905&nd=1" target="_blank"><img src="../img/spotify.png" alt="Logodespotify" class="contact-item"/></a>
+      <p class="tituloenfooter">Encontranos en</p>
+      <a href="https://www.instagram.com/turismocba/?hl=es" target="_blank">
+        <img src="../img/instagram.png"     alt="Logodeinstagram"class="contact-item" /></a>
+      <a href="https://www.facebook.com/turismocba/?locale=es_LA" target="_blank">
+        <img src="../img/facebook.png" alt="Logodefacebook"class="contact-item" /></a>
+      <a href="https://www.youtube.com/channel/UCtZRc3h0m29bXR0CACn-VfQ" target="_blank"
+      ><img src="../img/youtube.png" alt="Logodeyoutube"class="contact-item" /></a>
+    <a href="https://open.spotify.com/show/3iBwRXTxWZy0UybGkzqgzU?si=1e5e2e6874954905&nd=1" target="_blank">
+      <img src="../img/spotify.png"alt="Logodespotify" class="contact-item" /></a>
       </div>
 
       <div class="footer-inner2">
         <div class="contact-info">
           <p class="tituloenfooter">Contacto</p>
-          <a href="https://www.google.com/maps/place/Agencia+C%C3%B3rdoba+Turismo/@-31.3715277,-64.2612261,17z/data=!3m1!4b1!4m6!3m5!1s0x94329ecc5b393bad:0x2fb5dedb0f8bda6d!8m2!3d-31.3715324!4d-64.2563552!16s%2Fg%2F11g8wp4sjz?entry=tts" target="_blank"><img src="../img/ubi.png" alt="Logodemaps" class="contact-item"/>Av.Cárcano S/N, Complejo Ferial Córdoba</a>
-          <a><img src="../img/cel.png" alt="Logodecelular" class="contact-item"/>0800-000-0000</a>
+          <a href="https://www.google.com/maps/place/Agencia+C%C3%B3rdoba+Turismo/@-31.3715277,-64.2612261,17z/data=!3m1!4b1!4m6!3m5!1s0x94329ecc5b393bad:0x2fb5dedb0f8bda6d!8m2!3d-31.3715324!4d-64.2563552!16s%2Fg%2F11g8wp4sjz?entry=tts"
+            target="_blank">
+            <img src="../img/ubi.png" alt="Logodemaps" class="contact-item" />Av.Cárcano S/N, Complejo Ferial Córdoba</a>
+          <a><img src="../img/cel.png" alt="Logodecelular" class="contact-item" />0800-000-0000</a>
         </div>
       </div>
 
-        <div class="copyright">
-        <p>&copy; 2024 Córdoba Turismo - Todos los derechos reservados</p>
+      <div class="redes">
+        <a href="https://web.whatsapp.com/" target="_blank"><img src="../img/wsp.png" alt="LogodeWsp" class="icono-wsp" /></a>
       </div>
-
-    <div class="redes">
-      <a href="https://web.whatsapp.com/" target="_blank"
-        ><img src="../img/wsp.png" alt="LogodeWsp" class="icono-wsp"
-      /></a>
-    </div>
   </footer>
 
-    <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
 
-  </body>
+</body>
 </html>

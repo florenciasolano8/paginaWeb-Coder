@@ -96,24 +96,32 @@ header .menuheader .navbar .container-fluid {
   text-align: center;
   font-style: "Ubuntu";
 }
-.main .imgformulario {
-  margin-top: 35px;
+.main .containerformulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin-bottom: 65px;
+  margin-top: 100px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.main .containerformulario .imgformulario {
   height: 300px;
-  width: 1325px;
+  width: 1350px;
 }
-.main .contentform {
+.main .containerformulario .contentform {
   position: absolute;
-  margin-top: -140px;
-  margin-left: 620px;
-  transform: translate(-50%, -50%);
   color: white;
-  text-align: center;
 }
-.main .contentform .ordeform {
+.main .containerformulario .contentform .ordeform {
   font-family: "Libre Franklin";
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
+}
+.main .containerformulario .contentform .form {
+  margin-left: 80px;
 }
 .main .grid-container {
   display: grid;
@@ -189,48 +197,46 @@ header .menuheader .navbar .container-fluid {
 }
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-top: 150px;
   background-color: #c5f0d4;
-  height: 160px;
-  padding: 10px 0;
+  height: 140px;
   color: black;
-  position: relative;
-  bottom: 0;
   width: 100%;
 }
 .footer .imgfooter {
-  width: 40px;
-  height: 60px;
-  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
 }
 .footer .footer-inner {
-  margin-left: 300px;
-  margin-top: -70px;
+  flex-grow: 1;
+  /*el contenido se expande para llenar el espacio disponible*/
   font-size: 10px;
+  margin-left: 150px;
 }
-.footer .tituloenfooter {
+.footer .footer-inner .contact-info1, .footer .footer-inner .footer-inner2 .contact-info, .footer .footer-inner2 .footer-inner .contact-info {
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+.footer .footer-inner .contact-info1 .tituloenfooter, .footer .footer-inner .footer-inner2 .contact-info .tituloenfooter, .footer .footer-inner2 .footer-inner .contact-info .tituloenfooter {
   font-size: 18px;
 }
-.footer .contact-info, .footer .contact-info1 {
-  margin-left: 50px;
-  margin-top: -15px;
-}
-.footer .contact-item {
+.footer .footer-inner .contact-info1 .contact-item, .footer .footer-inner .footer-inner2 .contact-info .contact-item, .footer .footer-inner2 .footer-inner .contact-info .contact-item {
   margin-right: 25px;
-  margin-top: 15px;
+  margin-top: -10px;
   width: 35px;
 }
 .footer .footer-inner2 {
   margin-left: 450px;
   margin-top: -90px;
 }
-.footer .copyright {
-  margin-left: 180px;
-  margin-top: 30px;
-}
-.footer .imgfooter {
-  width: 80px;
-  margin-left: 15px;
-  margin-top: 10px;
+.footer .redes {
+  display: flex;
+  align-items: center;
 }
 .footer .redes .icono-wsp {
   width: 50px;
@@ -240,20 +246,18 @@ header .menuheader .navbar .container-fluid {
 }
 
 .contenedor {
-  max-width: 120rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin-bottom: 250px;
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Ubuntu", Sans-serif;
 }
 .contenedor .container-principio {
   position: relative;
 }
-.contenedor .imgprincipal {
-  height: 450px;
-  width: 100%;
-}
 .contenedor h1 {
   font-size: 60px;
-  font-family: "Ubuntu", Sans-serif;
   font-weight: 1000;
   line-height: 50px;
   position: absolute;
@@ -263,6 +267,10 @@ header .menuheader .navbar .container-fluid {
   background-color: transparent;
   color: #fffffc;
   padding: 10px;
+}
+.contenedor .imgprincipal {
+  height: 450px;
+  width: 1340px;
 }
 
 .boton {
@@ -291,68 +299,78 @@ body {
   background-color: #f5ffe2;
 }
 
-.pagquehacer {
+.pagquehacer .pagquehacer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   font-size: 60px;
-  font-family: "Ubuntu", Sans-serif;
   font-weight: 1000;
-  line-height: 50px;
   margin-left: 150px;
-  background-color: transparent;
-  /*BUSCADOR*/
 }
 .pagquehacer h1 {
+  font-family: "Ubuntu", Sans-serif;
   color: #fffffc;
   font-size: 60px;
-  font-family: "Ubuntu", Sans-serif;
   font-weight: 1000;
-  line-height: 50px;
   position: absolute;
   z-index: 1;
   margin-left: 480px;
-  margin-top: 150px;
+  margin-top: 160px;
   background-color: transparent;
   padding: 10px;
 }
-.pagquehacer .tam_primerimg {
+.pagquehacer .imgprincipal {
   height: 450px;
   width: 100%;
 }
-.pagquehacer .margendelapagquehacer {
+
+.margendelapagquehacer .parrafoquehacer {
+  font-size: 14px;
+  text-indent: auto;
+}
+
+.margendelapagquehacer {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
-.pagquehacer .margendelapagquehacer .parrafoquehacer {
-  font-size: 14px;
-  text-indent: auto;
-}
-.pagquehacer .navbarbuscador2 {
+
+/*BUSCADOR*/
+.navbarbuscador2 {
   margin-left: 450px;
   width: 400px;
 }
 
 .tituloquevisitar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   font-size: 60px;
   font-family: "Ubuntu", Sans-serif;
   font-weight: 1000;
-  line-height: 70px;
   margin-left: 150px;
   background-color: transparent;
   color: black;
 }
 .tituloquevisitar h1 {
   font-size: 60px;
-  font-family: "Ubuntu", Sans-serif;
   font-weight: 1000;
   line-height: 50px;
   position: absolute;
   z-index: 1;
-  margin-left: 300px;
-  margin-top: 150px;
+  margin-left: 320px;
+  margin-top: 160px;
   background-color: transparent;
   color: #fffffc;
   padding: 10px;
+}
+
+.imgprincipal {
+  height: 450px;
+  width: 100%;
 }
 
 h2 {
@@ -365,26 +383,30 @@ h2 {
 }
 
 .tituloeventos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   font-size: 60px;
   font-family: "Ubuntu", Sans-serif;
   font-weight: 1000;
-  line-height: 70px;
   margin-left: 200px;
-  background-color: transparent;
   color: #fffffc;
 }
 .tituloeventos h1 {
   font-size: 60px;
-  font-family: "Ubuntu", Sans-serif;
   font-weight: 1000;
-  line-height: 50px;
   position: absolute;
   z-index: 1;
-  margin-left: 300px;
-  margin-top: 150px;
+  margin-left: 320px;
+  margin-top: 160px;
   background-color: transparent;
   color: #fffffc;
   padding: 10px;
+}
+.tituloeventos .imgprincipal {
+  height: 450px;
+  width: 100%;
 }
 
 .buscadorpageventos {
@@ -392,25 +414,29 @@ h2 {
 }
 
 .titulodatosutiles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   font-size: 60px;
   font-family: "Ubuntu", Sans-serif;
   font-weight: 1000;
-  line-height: 70px;
   margin-left: 150px;
-  background-color: transparent;
   color: #fffffc;
 }
 .titulodatosutiles h1 {
   font-size: 60px;
-  font-family: "Ubuntu", Sans-serif;
   font-weight: 1000;
-  line-height: 50px;
-  position: absolute;
   z-index: 1;
-  margin-left: 300px;
-  margin-top: 150px;
+  margin-left: 320px;
+  margin-top: 160px;
   background-color: transparent;
   padding: 10px;
+  position: absolute;
+}
+.titulodatosutiles .imgprincipal {
+  height: 450px;
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -547,7 +573,7 @@ h2 {
     margin-top: -70px;
     font-size: 10px;
   }
-  footer .footer-inner .contact-info1 {
+  footer .footer-inner .contact-info1, footer .footer-inner .footer .footer-inner2 .contact-info, .footer .footer-inner2 footer .footer-inner .contact-info {
     margin-left: -230px;
     margin-bottom: -25px;
   }

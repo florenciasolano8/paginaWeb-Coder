@@ -48,29 +48,52 @@
     font-style: "Ubuntu";
   }
 
+
+
+
+
+  .containerformulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin-bottom: 65px;
+    margin-top: 100px;
+    margin-right: 0;
+    margin-left: 0;
+
+
+
   .imgformulario {
-    margin-top: 35px;
     height: 300px;
-    width: 1325px;
+    width: 1350px;
   }
 
   .contentform {
     position: absolute;
-    margin-top: -140px;
-    margin-left: 620px;
-    transform: translate(-50%, -50%);
     color: white;
-    text-align: center;
-  }
+
+    .ordeform {
+      font-family: "Libre Franklin";
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .form {
+      margin-left: 80px;
 
 
 
-  .contentform .ordeform {
-    font-family: "Libre Franklin";
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
-  }
+}
+
+
+}
+
+}
+
+
+
 
   .grid-container {
     display: grid;

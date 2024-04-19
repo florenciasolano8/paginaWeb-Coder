@@ -1,0 +1,220 @@
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header {
+        display: flex;
+        flex-direction: row; /* Cambio la dirección a columna */
+        align-items: center; /* Alineo los elementos al centro verticalmente */
+        justify-content: space-between; /* Espacio entre los elementos */    
+        img {
+          margin: 10px;
+          width: 150px;
+          margin-top: -5px;
+        }
+
+        .navbar1 {
+          width: 180px; /* Ajusto el ancho para ocupar todo el contenedor */
+          margin-top: -8px; /* Ajusto el margen superior */
+          margin-left:-100px ;
+        }
+    
+        /*menu*/
+        .menuheader {
+          display: flex;
+          align-items: center; /* Alineo los elementos al inicio */
+          justify-content: flex-end; /* Espacio entre .navbar y .menuheader */
+          width: 100%; /* Ajusto el ancho para ocupar todo el contenedor */
+          margin-top: -76px; /* Ajusto el margen superior */
+          margin-left: 25px;
+          .navbar {
+            margin-top: 30px; /* Ajusto el margen superior */
+    
+            .container-fluid {
+              width: 100%; /* Ajusto el ancho para ocupar todo el contenedor */
+            }
+          }
+        }
+      }
+    
+    
+    
+      .contenedor {
+        h1 {
+            margin-left: 100px;
+            }
+      }
+    
+      /*MAIN*/
+      main {
+        .img-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+    
+        .imgprincipal {
+          height: 200px;
+          width: 100%;
+        }
+    
+        .grid-container {
+          /*modificaciones pagina que visitar*/
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+    
+        .grid-item {
+          margin-bottom: 20px;
+        }
+    
+        .parrafodatosUtiles {
+          font-size: 15px;
+        }
+    
+        /*modificaciones pagquehacer*/
+ 
+        h4 {
+          font-size: 18px;
+    
+        }
+    
+        .texto-superpuesto p {
+          font-size: 10px;
+        }
+    
+    
+    
+        /*datos  utiles*/
+        .secciondatosutiles {
+          .grid-container2 {
+            flex-direction: column; // Cambia la dirección del flujo de elementos a columna
+            align-items: flex-start; // Alinea los elementos a la izquierda
+          }
+    
+          .grid-item2 {
+            width: 100%; // Ocupa todo el ancho disponible
+            margin-right: 0; // Elimina el margen derecho
+            margin-bottom: 20px; // Espacio entre los elementos
+    
+    
+          }
+    
+        }
+      }
+    
+      /*PAGQUEHACER*/
+      .pagquehacer {
+        .navbarbuscador2 {
+          display: none;
+        }
+    
+        .tam_primerimg {
+          height: 200px;
+          width: 100%;
+        }
+    
+        h1 {
+            margin-left:250px;
+            }
+      }
+    
+      /*modificaciones pagquevisitar*/
+    
+      .tituloquevisitar {
+        h1 {
+          margin-left: 100px;
+        }
+      }
+    
+      h3 {
+        font-size: 18px;
+    
+      }
+    
+      .buscadorpagquevisitar {
+        margin-left: -380px;
+    
+      }
+    
+      /*modificaciones pageventos*/
+    
+      .tituloeventos {
+        h1 {
+          margin-left: 100px;
+        }
+    
+        h3 {
+          font-size: 18px;
+    
+        }
+    
+      }
+    
+      .buscadorpageventos {
+        margin-left: -380px;
+    
+      }
+    
+      /*modificaciones pagdatosutiles*/
+      .titulodatosutiles {
+        h1 {
+         margin-left: 100px;
+        }
+    
+      }
+    
+    
+    
+    
+      footer {
+        display: flex;
+        /* Utiliza flexbox para los íconos */
+        align-items: center;
+        /* Centra los íconos verticalmente */
+        justify-content: flex-start;
+        /* Alinea los íconos a la izquierda */
+        flex-wrap: wrap;
+    
+        .imgfooter {
+          width: 40px;
+          height: 60px;
+          margin-right: 20px;
+          margin-top: 30px;
+          /* Espacio a la derecha del logo */
+        }
+    
+        .footer-inner {
+          margin-left: 300px;
+          margin-top: -70px;
+          font-size: 10px;
+    
+    
+          .contact-info1 {
+            margin-right: 280px;
+            margin-top: 30px;
+          }
+    
+          .tituloenfooter {
+            display: none;
+          }
+    
+          .contact-item {
+            margin-bottom: 15px;
+            /* Espacio entre iconos */
+          }
+    
+        }
+    
+    
+        .footer-inner2 {
+        color:black;
+        margin-top: 10px;
+
+          }
+      
+        .copyright {
+          display: none;
+        }
+    
+      }
+  }

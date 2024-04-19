@@ -1,19 +1,19 @@
- .tituloquevisitar {
+ @mixin detallesquevisitar-engeneral{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-     font-size: 60px;
      font-family: "Ubuntu", Sans-serif;
-     font-weight: 1000;
      margin-left: 150px;
-     background-color: transparent;
      color: black;
+ }
+ 
+ .tituloquevisitar {
+  @include detallesquevisitar-engeneral();
 
      h1 {
          font-size: 60px;
          font-weight: 1000;
-         line-height: 50px;
          position: absolute;
          z-index: 1;
          margin-left: 320px;

@@ -1,5 +1,9 @@
+$colordelheader:linear-gradient(90deg, rgba(218,248,0,1) 22%, rgba(165,239,57,0.8155637254901961) 49%);
+$colorletradelheader:#3e9219;
+
+
 header {
-  background: linear-gradient(to left, #80e961, #daf800);
+  background: $colordelheader;
   display: flex;
   padding: 15px;
   justify-content: space-between;
@@ -19,7 +23,7 @@ header {
         a {
           margin: 10px;
           font-weight: 500;
-          color: #3e9219;
+          color: $colorletradelheader;
           text-decoration: none;
           transition: 1s;
           &:hover {

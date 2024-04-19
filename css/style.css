@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*import*/
 header {
-  background: linear-gradient(to left, #80e961, #daf800);
+  background: linear-gradient(90deg, rgb(218, 248, 0) 22%, rgba(165, 239, 57, 0.8155637255) 49%);
   display: flex;
   padding: 15px;
   justify-content: space-between;
@@ -52,6 +52,17 @@ header .menuheader .navbar .container-fluid {
   width: 100%; /* Ajusto el ancho para ocupar todo el contenedor */
 }
 
+@keyframes cambiarColor {
+  0% {
+    color: yellow;
+  }
+  50% {
+    color: rgb(243, 201, 124);
+  }
+  100% {
+    color: rgb(247, 226, 226);
+  }
+}
 .main {
   font-family: "Ubuntu";
   color: black;
@@ -113,6 +124,10 @@ header .menuheader .navbar .container-fluid {
 .main .containerformulario .contentform {
   position: absolute;
   color: white;
+  animation-name: cambiarColor;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 8s;
 }
 .main .containerformulario .contentform .ordeform {
   font-family: "Libre Franklin";
@@ -188,6 +203,9 @@ header .menuheader .navbar .container-fluid {
 .main .grid-item2 {
   text-align: center;
 }
+.main .grid-item2:hover {
+  transform: rotate(12deg) translate(-40px, 10px);
+}
 .main .grid-item2 a {
   text-decoration: none;
 }
@@ -243,6 +261,10 @@ header .menuheader .navbar .container-fluid {
   position: fixed;
   right: 25px;
   bottom: 50px;
+  transition: 1s;
+}
+.footer .redes .icono-wsp:hover {
+  transform: rotate(360deg);
 }
 
 .contenedor {
@@ -325,16 +347,15 @@ body {
   width: 100%;
 }
 
-.margendelapagquehacer .parrafoquehacer {
-  font-size: 14px;
-  text-indent: auto;
-}
-
 .margendelapagquehacer {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 60px;
   margin-bottom: 60px;
+}
+.margendelapagquehacer .parrafoquehacer {
+  font-size: 14px;
+  text-indent: auto;
 }
 
 /*BUSCADOR*/
@@ -348,17 +369,13 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  font-size: 60px;
   font-family: "Ubuntu", Sans-serif;
-  font-weight: 1000;
   margin-left: 150px;
-  background-color: transparent;
   color: black;
 }
 .tituloquevisitar h1 {
   font-size: 60px;
   font-weight: 1000;
-  line-height: 50px;
   position: absolute;
   z-index: 1;
   margin-left: 320px;
@@ -387,18 +404,14 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  font-size: 60px;
   font-family: "Ubuntu", Sans-serif;
-  font-weight: 1000;
-  margin-left: 200px;
-  color: #fffffc;
 }
 .tituloeventos h1 {
   font-size: 60px;
   font-weight: 1000;
   position: absolute;
   z-index: 1;
-  margin-left: 320px;
+  margin-left: 500px;
   margin-top: 160px;
   background-color: transparent;
   color: #fffffc;

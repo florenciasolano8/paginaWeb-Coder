@@ -1,14 +1,18 @@
-.footer {
+$colorfooter: #c5f0d4;
+@mixin footeren-general{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0;
     margin-top:150px;
-    background-color: #c5f0d4;
+    background-color: $colorfooter;
     height: 140px;
     color: black;
     width: 100%;
+}
 
+.footer {
+  @include footeren-general();
 
     .imgfooter {
         width: 80px;
@@ -42,7 +46,6 @@
 
     }
 
-
     .footer-inner2 {
         margin-left: 450px;
         margin-top: -90px;
@@ -51,11 +54,6 @@
 
         }
     }
-
-
-
-
-
     .redes {
         display: flex;
         align-items: center;
@@ -65,8 +63,11 @@
             position: fixed;
             right: 25px;
             bottom: 50px;
+            transition: 1s;
+            &:hover{
+                transform: rotate(360deg);
+            }
+    
         }
     }
-
-
 }

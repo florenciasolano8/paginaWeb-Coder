@@ -162,6 +162,10 @@ header .menuheader .navbar .container-fluid {
   color: white;
   font-weight: bold;
 }
+.main .texto-superpuesto .textodecards {
+  font-size: 18px;
+  margin-bottom: -2px;
+}
 .main h4 {
   margin-bottom: 5px;
 }

@@ -231,6 +231,7 @@ font-style: "Ubuntu";
   font-size: 16px;
   margin-bottom: 5px;
   margin:65px 65px;
+
 .arribadelaimg{
   font-size: 24px;
   display: flex;
@@ -253,6 +254,11 @@ font-style: "Ubuntu";
   margin-bottom: 20px;
   border-bottom: 1px solid grey; /* Color y grosor de la línea */
 
+}
+.parrafoitalic{
+  font-style:italic;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 }
 

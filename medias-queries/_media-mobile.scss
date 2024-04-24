@@ -125,17 +125,27 @@ h1{
   
   }
   .imgextra1{
-    display: none;
-
+    width: 100px;
+    height: 100px;
   }
   .imgextra2{
-    display: none;
-
+    width: 200px;
+    height: 100px;
   }
 }
 
 
 }
+
+/*PAG EXTRA*/
+.detallesquehacer{
+  h1{
+    display: none;
+  }
+}
+
+
+
 
   /*PAGQUEHACER*/
   .pagquehacer {

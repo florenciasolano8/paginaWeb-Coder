@@ -44,6 +44,22 @@ nav{
     }
   }
 
+
+/*pag extras*/
+.pagextras{
+h1{
+  display: none;
+}
+}
+/*pag la ciudad*/
+.pagciudad{
+  h1{
+    display: none;
+  }
+}
+
+
+
   /*MAIN*/
   main {
     .img-container {
@@ -101,7 +117,25 @@ nav{
       }
 
     }
+    /*pag identidad cordobesa*/
+  .textodeidentidadcordobesa{
+
+  .imgcañada{
+  display: none;
+  
   }
+  .imgextra1{
+    display: none;
+
+  }
+  .imgextra2{
+    display: none;
+
+  }
+}
+
+
+}
 
   /*PAGQUEHACER*/
   .pagquehacer {

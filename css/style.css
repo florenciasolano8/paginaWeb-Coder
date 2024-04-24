@@ -71,6 +71,7 @@ header .menuheader .navbar .container-fluid {
   margin-right: 20px;
   margin-bottom: 100px;
   /*texto debajo de iconos de datosutiles*/
+  /*pag identidad cordobesa*/
 }
 .main .containerr {
   display: flex;
@@ -217,6 +218,31 @@ header .menuheader .navbar .container-fluid {
   display: block;
   margin-bottom: 5px;
 }
+.main .textodeidentidadcordobesa {
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin: 65px 65px;
+}
+.main .textodeidentidadcordobesa .arribadelaimg {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+.main .textodeidentidadcordobesa .imgextra1 {
+  margin-bottom: 18px;
+  height: 450px;
+  width: 100%;
+}
+.main .textodeidentidadcordobesa .imgextra2 {
+  margin-bottom: 18px;
+  height: 500px;
+  width: 60%;
+}
+.main .textodeidentidadcordobesa .subtitulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey; /* Color y grosor de la línea */
+}
 
 .footer {
   display: flex;
@@ -296,7 +322,7 @@ header .menuheader .navbar .container-fluid {
 }
 .contenedor .imgprincipal {
   height: 450px;
-  width: 1340px;
+  width: 1300px;
 }
 
 .boton {
@@ -650,10 +676,19 @@ h2 {
   .contenedor h1 {
     display: none;
   }
+  /*pag extras*/
+  .pagextras h1 {
+    display: none;
+  }
+  /*pag la ciudad*/
+  .pagciudad h1 {
+    display: none;
+  }
   /*MAIN*/
   main {
     /*modificaciones pagquehacer*/
     /*datos  utiles*/
+    /*pag identidad cordobesa*/
   }
   main .img-container {
     display: flex;
@@ -690,6 +725,15 @@ h2 {
     width: 100%;
     margin-right: 0;
     margin-bottom: 20px;
+  }
+  main .textodeidentidadcordobesa .imgcañada {
+    display: none;
+  }
+  main .textodeidentidadcordobesa .imgextra1 {
+    display: none;
+  }
+  main .textodeidentidadcordobesa .imgextra2 {
+    display: none;
   }
   /*PAGQUEHACER*/
   .pagquehacer .navbarbuscador2 {
@@ -763,6 +807,55 @@ h2 {
   footer .copyright {
     display: none;
   }
+}
+.pagextras {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pagextras h1 {
+  font-family: "Ubuntu", Sans-serif;
+  color: #fffffc;
+  font-size: 60px;
+  font-weight: 1000;
+  z-index: 1;
+  margin-left: 350px;
+  margin-top: 160px;
+  background-color: transparent;
+  padding: 10px;
+  position: absolute;
+}
+.pagextras .imgprincipal {
+  height: 450px;
+  width: 1450px;
+  margin-bottom: 250px;
+  border-bottom: 6px solid rgba(219, 248, 0, 0.877); /* Color y grosor de la línea */
+}
+
+.pagciudad {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pagciudad h1 {
+  font-family: "Ubuntu", Sans-serif;
+  color: #fffffc;
+  font-size: 60px;
+  font-weight: 1000;
+  z-index: 1;
+  margin-left: 490px;
+  margin-top: 160px;
+  background-color: transparent;
+  padding: 10px;
+  position: absolute;
+}
+.pagciudad .imgprincipal {
+  height: 450px;
+  width: 1500px;
+  margin-bottom: 250px;
+  border-bottom: 6px solid rgba(219, 248, 0, 0.877); /* Color y grosor de la línea */
 }
 
 /*# sourceMappingURL=style.css.map */

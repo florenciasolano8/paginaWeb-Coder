@@ -735,12 +735,12 @@ h2 {
     display: none;
   }
   main .textodeidentidadcordobesa .imgextra1 {
-    width: 100px;
-    height: 100px;
+    width: 300px !important;
+    height: 300px !important;
   }
   main .textodeidentidadcordobesa .imgextra2 {
-    width: 200px;
-    height: 100px;
+    width: 400px !important;
+    height: 300px !important;
   }
   /*PAG EXTRA*/
   .detallesquehacer h1 {

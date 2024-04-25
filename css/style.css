@@ -149,6 +149,10 @@ header .menuheader .navbar .container-fluid {
 }
 .main .grid-item {
   position: relative;
+  transition: transform 0.3s ease; /*"zoom en la imagen"*/
+}
+.main .grid-item:hover {
+  transform: scale(1.05);
 }
 .main .imggrid {
   width: 100%;
@@ -282,6 +286,10 @@ header .menuheader .navbar .container-fluid {
   margin-right: 25px;
   margin-top: -10px;
   width: 35px;
+  transition: transform 0.3s ease;
+}
+.footer .footer-inner .contact-info1 .contact-item:hover, .footer .footer-inner .footer-inner2 .contact-info .contact-item:hover, .footer .footer-inner2 .footer-inner .contact-info .contact-item:hover {
+  transform: scale(1.6);
 }
 .footer .footer-inner2 {
   margin-left: 450px;

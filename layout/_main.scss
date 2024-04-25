@@ -149,10 +149,16 @@ font-style: "Ubuntu";
     gap: 5px;
     margin-top: 300px;
     margin-bottom: 70px;
+
   }
 
   .grid-item {
     position: relative;
+    
+    transition: transform 0.3s ease; /*"zoom en la imagen"*/
+    &:hover{
+      transform: scale(1.05);
+    }
   }
 
   .imggrid {

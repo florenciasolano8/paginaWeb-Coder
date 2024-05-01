@@ -39,22 +39,32 @@ nav{
 
 
   .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     h1 {
-      display: none;
+      font-size: 40px !important;
+      margin-left:440px !important;
+
     }
   }
 
 
 /*pag extras*/
 .pagextras{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 h1{
-  display: none;
+  font-size: 35px !important;
+  margin-left:140px !important;
 }
 }
 /*pag la ciudad*/
 .pagciudad{
+
   h1{
-    display: none;
+ display: none;
   }
 }
 
@@ -97,6 +107,7 @@ h1{
 
     .texto-superpuesto p {
       font-size: 10px;
+      margin-top: 1px !important;
     }
 
 
@@ -140,7 +151,9 @@ h1{
 /*PAG EXTRA*/
 .detallesquehacer{
   h1{
-    display: none;
+    margin-top:180px !important;
+    font-size: 30px !important;
+    margin-left:125px !important;
   }
 }
 
@@ -149,6 +162,7 @@ h1{
 
   /*PAGQUEHACER*/
   .pagquehacer {
+  
     .navbarbuscador2 {
       display: none;
     }
@@ -159,16 +173,20 @@ h1{
     }
 
     h1 {
-      display: none;
+
+      font-size: 50px;
+      margin-left:130px !important;
     }
   }
 
   /*modificaciones pagquevisitar*/
 
   .tituloquevisitar {
+
     h1 {
-      display: none;
-    }
+      font-size: 50px !important;
+      margin-left:-10px !important;   
+     }
   }
 
   h3 {
@@ -184,8 +202,11 @@ h1{
   /*modificaciones pageventos*/
 
   .tituloeventos {
+
     h1 {
-      display: none;
+      font-size: 50px !important;
+      margin-left:200px !important;
+      margin-top: 200px !important;
     }
 
     h3 {
@@ -202,9 +223,12 @@ h1{
 
   /*modificaciones pagdatosutiles*/
   .titulodatosutiles {
+
     h1 {
-      display: none;
-    }
+      font-size: 50px !important;
+      margin-left:5px !important; 
+      margin-top: 200px !important;  
+     }
 
   }
 
@@ -213,11 +237,8 @@ h1{
 
   footer {
     display: flex;
-    /* Utiliza flexbox para los íconos */
     align-items: center;
-    /* Centra los íconos verticalmente */
     justify-content: flex-start;
-    /* Alinea los íconos a la izquierda */
     flex-wrap: wrap;
 
     .imgfooter {
@@ -234,8 +255,8 @@ h1{
 
 
       .contact-info1 {
-        margin-left: -230px;
-        margin-bottom: -25px;
+        margin-left:-60px !important;
+        margin-top: 105px !important;
       }
 
       .tituloenfooter {

@@ -752,6 +752,9 @@ h2 {
     margin-right: 0;
     margin-bottom: 20px;
   }
+  main .textodeidentidadcordobesa .arribadelaimg {
+    display: none !important;
+  }
   main .textodeidentidadcordobesa .imgcañada {
     display: none;
   }

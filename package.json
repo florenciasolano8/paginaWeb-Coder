@@ -11,5 +11,13 @@
     "sass": "^1.74.1"
   },
   "devDependencies": {},
-  "description": "Desarrollo Web"
+  "description": "Desarrollo Web",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florenciasolano8/paginaWeb-Coder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/florenciasolano8/paginaWeb-Coder/issues"
+  },
+  "homepage": "https://github.com/florenciasolano8/paginaWeb-Coder#readme"
 }
